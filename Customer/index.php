@@ -11,6 +11,9 @@
     <!-- Title Page-->
     <title>FITNESS TRAINER</title>
     <link rel="icon" href="/TrainerProject/User/img/laravel.png">
+    <!-- Font CSS-->
+    <link rel="stylesheet" href="css/wow-alert.css">
+
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -662,6 +665,7 @@
                 </div>
             </div>
             <!-- END MAIN CONTENT-->
+            
             <!-- END PAGE CONTAINER-->
         </div>
 
@@ -690,6 +694,11 @@
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
+    <script language="javascript">
+alert("กรุณากรอกข้อมูลส่วนตัวด้วย.")
+</script>
+
+
 
 </body>
 
