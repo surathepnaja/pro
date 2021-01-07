@@ -7,10 +7,12 @@
     <meta name="description" content="au theme template">
     <meta name="author" content="Hau Nguyen">
     <meta name="keywords" content="au theme template">
-
+   
     <!-- Title Page-->
     <title>FITNESS TRAINER</title>
     <link rel="icon" href="/TrainerProject/User/img/laravel.png">
+     <!-- Font CSS-->
+     <link rel="stylesheet" href="css/wow-alert.css">
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -780,6 +782,16 @@
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
+   <!-- แจ้งเตือน-->
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+   <script>
+        Swal.fire({
+            title: 'คำเตือน!',
+            text: 'กรุณากรอกข้อมูลผู้ดูแล',
+            icon: 'warning',
+            confirmButtonText: 'ตกลง'
+        })
+    </script>
 
 </body>
 

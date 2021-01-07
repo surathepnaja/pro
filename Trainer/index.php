@@ -12,6 +12,9 @@
     <title>FITNESS TRAINER</title>
     <link rel="icon" href="/TrainerProject/User/img/laravel.png">
 
+     <!-- แจ้งเตือน-->
+     <link rel="stylesheet" href="css/wow-alert.css">
+
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
@@ -718,6 +721,19 @@
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    
+    <!-- แจ้งเตือน-->
+    <script>
+        Swal.fire({
+            title: 'คำเตือน!',
+            text: 'กรุณากรอกข้อมูลเทรนเนอร์',
+            icon: 'warning',
+            confirmButtonText: 'ตกลง'
+        })
+    </script>
+
 
 </body>
 
