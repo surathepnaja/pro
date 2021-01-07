@@ -701,10 +701,10 @@
     <!-- แจ้งเตือน-->
     <script>
         Swal.fire({
-            title: 'Error!',
-            text: 'Do you want to continue',
-            icon: 'w',
-            confirmButtonText: 'Cool'
+            title: 'คำเตือน!',
+            text: 'กรุณากรอกข้อมูลสมาชิก',
+            icon: 'warning',
+            confirmButtonText: 'ตกลง'
         })
     </script>
 
