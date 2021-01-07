@@ -14,8 +14,7 @@
     <!-- Font CSS-->
     <link rel="stylesheet" href="css/wow-alert.css">
 
-    <!-- swal CSS-->
-    <link href="dist/sweetalert.css" rel="stylesheet" type="text/css">
+   
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -696,8 +695,18 @@
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
-    <script src="dist/sweetalert.min.js"></script>
-
+   
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    
+    <!-- แจ้งเตือน-->
+    <script>
+        Swal.fire({
+            title: 'Error!',
+            text: 'Do you want to continue',
+            icon: 'w',
+            confirmButtonText: 'Cool'
+        })
+    </script>
 
 
 </body>
