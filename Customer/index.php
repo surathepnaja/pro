@@ -14,6 +14,8 @@
     <!-- Font CSS-->
     <link rel="stylesheet" href="css/wow-alert.css">
 
+    <!-- swal CSS-->
+    <link href="dist/sweetalert.css" rel="stylesheet" type="text/css">
 
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
@@ -694,9 +696,7 @@
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
-    <script language="javascript">
-alert("กรุณากรอกข้อมูลส่วนตัวด้วย.")
-</script>
+    <script src="dist/sweetalert.min.js"></script>
 
 
 

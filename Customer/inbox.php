@@ -11,7 +11,7 @@
 
     <!-- Title Page-->
     <title>Inbox</title>
-
+    <link href="index.css" rel="stylesheet" media="all">
     <!-- Fontfaces CSS-->
     <link href="css/font-face.css" rel="stylesheet" media="all">
     <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
@@ -783,7 +783,7 @@
 
     <!-- Main JS-->
     <script src="js/main.js"></script>
-
+    <script src="Swal.js"></script>
 </body>
 
 </php>
