@@ -52,7 +52,8 @@
                        </li>
 
                         <li class="nav-item">
-                              <a class="nav-link" href="login.php">เข้าสู่ระบบ</a>
+                              <a class="nav-link" href="login.php" target="_blank">เข้าสู่ระบบ</a>
+                             
                         </li>
                                 
                         <li class="nav-item">  

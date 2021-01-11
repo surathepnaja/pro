@@ -335,9 +335,7 @@
                                                 </td>
                                                 <td>02-589-9947</td>
                                             </tr> 
-                                        </tbody>
-
-                                        <tbody>
+                                        
                                             <tr>
                                                 <td>2.</td>
                                                 <td><img src="images/map/2.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
@@ -363,9 +361,9 @@
                                                 </td>
                                                 <td>02-589-9947</td>
                                             </tr> 
-                                        </tbody>
+                                        
 
-                                        <tbody>
+                                        
                                             <tr>
                                                 <td>3.</td>
                                                 <td><img src="images/map/3.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
@@ -391,9 +389,8 @@
                                                 </td>
                                                 <td>02-589-9947</td>
                                             </tr> 
-                                        </tbody>
+                                       
 
-                                        <tbody>
                                             <tr>
                                                 <td>4.</td>
                                                 <td><img src="images/map/4.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>

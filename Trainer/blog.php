@@ -330,9 +330,7 @@
                                                 </td>
                                                 <td>02-05-2020</td>
                                             </tr> 
-                                        </tbody>
-
-                                        <tbody>
+                                        
                                             <tr>
                                                 <td>2</td>
                                                 <td><img src="images/blog/2.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
@@ -355,9 +353,7 @@
                                                 </td>
                                                 <td>02-05-2020</td>
                                             </tr> 
-                                        </tbody>
-
-                                        <tbody>
+                                        
                                             <tr>
                                                 <td>3</td>
                                                 <td><img src="images/blog/3.jpeg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
@@ -382,7 +378,7 @@
                                             </tr> 
                                         </tbody>
 
-                                        </table>
+                                   </table>
                                 </div>
                                 <!-- END DATA TABLE-->
                             </div>

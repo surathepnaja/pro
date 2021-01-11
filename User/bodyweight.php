@@ -51,13 +51,12 @@
                        </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="login.php">เข้าสู่ระบบ</a>
+                             <a class="nav-link" href="login.php" target="_blank">เข้าสู่ระบบ</a>
                         </li>
                         
                         <li class="nav-item">  
-                          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                             สมัครเรียน
-                          </button>
+                              <a href="register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
+                        </li>
 
                           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                               <div class="modal-dialog" role="document">

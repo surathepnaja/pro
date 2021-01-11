@@ -33,6 +33,7 @@
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
+    <link href="fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet"> 
 
 </head>
 
@@ -46,7 +47,7 @@
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="index.php">
-                   <h3>Trainer System</h3>
+                   <h3>Admin System</h3>
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -66,34 +67,18 @@
                                 <i class="far fa-check-square"></i>งานที่ต้องทำ <span class="badge badge-danger">new</span></a>   
                                 
                         </li>
-                        <li>
-                            <a href="calendar.php">
-                                <i class="fas fa-calendar-alt"></i>ตารางสอน</a>
-                        </li>
+                       
 
                         <li>
-                            <a href="mycourse.php">
-                                <i class="fas fa-desktop"></i>คอร์สของฉัน</a>
-                        </li>
-                        
-                        <li>
-                            <a href="map.php">
-                                <i class="fas fa-map-marker-alt"></i>ร้านประจำ</a>
+                            <a href="new.php">
+                               <i class=" far fa-envelope"></i>จัดการข่าวสาร</a>
                         </li>
 
 
-                        <li>
-                            <a href="blog.php">
-                            <i class="fas fa-copy"></i>เขียนบทความ</a>                          
+                        <li  class="active">
+                            <a href="price.php">
+                            <i class="fas fa-funnel-dollar"></i>กำหนดราคา</a>
                         </li>
-
-
-
-                        <li>
-                            <a href="history.php">
-                             <i class="fas fa-book"></i>ประวัติการสอน</a>                          
-                        </li>
-
 
                         
                     </ul>
@@ -288,17 +273,17 @@
                         <div class="col-lg">
                                     <div class="card">
                                         <div class="card-header">
-                                            <strong>เพิ่มร้านประจำของคุณ</strong> &nbsp;เพื่อให้ลูกค้าเข้ามาเรียนกับคุณ
+                                            <strong>เพิ่มประเภทคอร์ส</strong> 
                                         </div>
                                         <div class="card-body card-block">
                                             <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
                                             
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="text-input" class=" form-control-label">ชื่อร้าน : </label>
+                                                        <label for="text-input" class=" form-control-label">ชื่อประเภทคอร์ส : </label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="text-input" name="text-input" placeholder="ตั้งชื่อร้านประจำของคุณ" class="form-control">
+                                                        <input type="text" id="text-input" name="text-input" placeholder="ตั้งชื่อประเภทคอร์ส" class="form-control">
                                                        
                                                     </div>
                                                 </div>
@@ -306,29 +291,20 @@
 
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="text-input" class=" form-control-label">URL Google Map : </label>
+                                                        <label for="text-input" class=" form-control-label">ราคา/คอร์ส : </label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                        <input type="text" id="text-input" name="text-input" placeholder="วางลิงก์สำหรับการแชร์เส้นทาง" class="form-control">
+                                                        <input type="text" id="text-input" name="text-input" placeholder="ตั้งราคาคอร์ส(฿)" class="form-control">
                                                        
                                                     </div>
                                                 </div>     
 
-                                                <div class="row form-group">
-                                                    <div class="col col-md-3">
-                                                        <label for="text-input" class=" form-control-label">เบอร์ติดต่อ: </label>
-                                                    </div>
-                                                    <div class="col-12 col-md-9">
-                                                        <input type="text" id="text-input" name="text-input" placeholder="กรอกเบอร์ฟิตเน็ต" class="form-control">
-                                                       
-                                                    </div>
-                                                </div>                                 
-                                                
+                                               
                                                 
                                              
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="file-input" class=" form-control-label">เพิ่มรูปร้าน : </label>
+                                                        <label for="file-input" class=" form-control-label">เพิ่มรูปประเภทคอร์ส : </label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
                                                         <input type="file" id="file-input" name="file-input" class="form-control-file">

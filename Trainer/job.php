@@ -33,6 +33,7 @@
 
     <!-- Main CSS-->
     <link href="css/theme.css" rel="stylesheet" media="all">
+    <link href="fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet"> 
 
 </head>
 
@@ -292,66 +293,106 @@
                                         <thead>
                                             <tr>
                                                 <th>ON.</th>
-                                                <th>รายชื่อลูกค้า</th>
+                                                <th>ข้อมูลลูกค้า</th>
                                                 <th>คอร์สที่ต้องการเรียน</th>
                                                 <th>รายละเอียด</th>
                                                 <th>สถานะ</th>
                                                 <th>จัดการ</th>
                                             </tr>
                                         </thead>
+
                                         <tbody>
                                             <tr>
-                                                <td>1</td>
-                                                <td>คุณ สุทรพจน์ บุญมี</td>
+                                                <td>1.</td>
+                                                <td>   
+                                                    <a href="#">
+                                                        <img src="images/job/3.jpg" alt="John Doe"  class="rounded-circle" alt="Cinque Terre"  width="50" height="50" /> <a href="#">&nbsp; &nbsp;คุณ สุทรพจน์ บุญมี</a>
+                                                    </a>
+                                                </td>
                                                 <td>มือใหม่อยากมีกล้าม</td>                                                
-                                                <td>สนใจเรียนวันเสาร์ ช่วงเย็น 17.00-19.00 ที่เวสยิม</td>
+                                                <td>
+                                                    <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</button>
+                                                </td>
                                                 <td> <span class="badge badge-success">สำเร็จ</span></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-success btn-sm">อนุมัติสำเร็จ</button>
+                                                    <button type="button" class="btn btn-success btn-sm"><i class="fa fa-check"></i>&nbsp;อนุมัติสำเร็จ</button>  
                                                 </td>
                                                
                                             </tr>
 
                                             <tr>
-                                                <td>2</td>
-                                                <td>คุณ สุทรพจน์ บุญมี</td>
+                                                <td>2.</td>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="images/job/6.jpg" alt="John Doe"  class="rounded-circle" alt="Cinque Terre"  width="50" height="100"/> <a href="#">&nbsp; &nbsp;คุณ บุญมี ศรีจันทร์</a>
+                                                    </a>
+                                                </td>
                                                 <td>มือใหม่อยากมีกล้าม</td>                                                
-                                                <td>สนใจเรียนวันเสาร์ ช่วงเย็น 17.00-19.00 ที่เวสยิม</td>
+                                                <td>  
+                                                     <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</button>
+                                                </td>
                                                 <td><span class="badge badge-success">สำเร็จ</span></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-success btn-sm">อนุมัติสำเร็จ</button></<button>
+                                                    <button type="button" class="btn btn-success btn-sm"><i class="fa fa-check"></i>&nbsp;อนุมัติสำเร็จ</button>
                                                 </td>
                                                
                                             </tr>
                                            
                                            
                                             <tr>
-                                                <td>3</td>
-                                                <td>คุณ นวนจันทร์ ไผ่ทอง</td>
+                                                <td>3.</td>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="images/job/1.jpg" alt="John Doe"  class="rounded-circle" alt="Cinque Terre"  width="50" height="100"/> <a href="#">&nbsp; &nbsp;คุณ นวนจันทร์ ไผ่ทอง</a>
+                                                    </a>
+                                                
+                                                </td>
                                                 <td>มือใหม่อยากมีกล้าม</td>                                                
-                                                <td>สนใจเรียนวันเสาร์ ช่วงเเช้า 8.00-10.00 ที่เวสยิม</td>
+                                                <td>  
+                                                     <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</button>
+                                                </td>
                                                 <td> <span class="badge badge-warning">รอดำเนินการ</span></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-info  btn-sm">รับสอน</button>
-                                                    <button type="button" class="btn btn-danger  btn-sm">ยกเลิก</button>
+                                                    <button type="button" class="btn btn-info  btn-sm"><i class="far fa-calendar-check"></i>&nbsp;รับสอน</button>
+                                                    <button type="button" class="btn btn-danger  btn-sm"><i class="far fa-trash-alt"></i>&nbsp;ยกเลิก</button>
                                                 </td>
                                                
                                             </tr>
 
                                             <tr>
-                                                <td>4</td>
-                                                <td>คุณ วงศ์สว่าง กลางกรุง</td>
+                                                <td>4.</td>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="images/job/2.jpg" alt="John Doe"  class="rounded-circle" alt="Cinque Terre"  width="50" height="100"/> <a href="#">&nbsp; &nbsp;คุณ วงศ์สว่าง กลางกรุง</a>
+                                                    </a>
+                                                </td>
                                                 <td>มือใหม่อยากมีกล้าม</td>                                                
-                                                <td>สนใจเรียนวันเสาร์ ช่วงบ่าย 13.00-15.00 ที่เวสยิม</td>
+                                                <td>  
+                                                     <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</button>
+                                                </td>
                                                 <td><span class="badge badge-warning">รอดำเนินการ</span></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-info  btn-sm">รับสอน</button>
-                                                    <button type="button" class="btn btn-danger  btn-sm">ยกเลิก</button>
+                                                    <button type="button" class="btn btn-info  btn-sm"><i class="far fa-calendar-check"></i>&nbsp;รับสอน</button>
+                                                    <button type="button" class="btn btn-danger  btn-sm"><i class="far fa-trash-alt"></i>&nbsp;ยกเลิก</button>
                                                 </td>
-                                               
                                             </tr>
-                                                                                      
-                                           
+
+                                            <tr>
+                                                <td>5.</td>
+                                                <td>
+                                                    <a href="#">
+                                                        <img src="images/job/7.jpg" alt="John Doe"  class="rounded-circle" alt="Cinque Terre"  width="50" height="50"/> <a href="#">&nbsp; &nbsp;คุณ วงศ์สว่าง กลางกรุง</a>
+                                                    </a>
+                                                </td>
+                                                <td>มือใหม่อยากมีกล้าม</td>                                                
+                                                <td>  
+                                                     <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</button>
+                                                </td>
+                                                <td><span class="badge badge-danger">ยกเลิก</span></td>
+                                                <td>
+                                                    <button type="button" class="btn btn-danger btn-sm"><i class="fas fa-ban"></i>&nbsp;ไม่อนุมัติ</button>
+                                                </td>
+                                            </tr>
                                             
                                         </tbody>
                                     </table>

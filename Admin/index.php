@@ -783,15 +783,7 @@
     <!-- Main JS-->
     <script src="js/main.js"></script>
    <!-- แจ้งเตือน-->
-   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-   <script>
-        Swal.fire({
-            title: 'คำเตือน!',
-            text: 'กรุณากรอกข้อมูลผู้ดูแล',
-            icon: 'warning',
-            confirmButtonText: 'ตกลง'
-        })
-    </script>
+  
 
 </body>
 

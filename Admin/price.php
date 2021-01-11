@@ -76,7 +76,7 @@
 
 
                         <li  class="active">
-                            <a href="map.php">
+                            <a href="price.php">
                             <i class="fas fa-funnel-dollar"></i>กำหนดราคา</a>
                         </li>
 
@@ -272,7 +272,7 @@
                               <div class="row">
                                         <div class="col-auto mr-auto"></div>
                                             <div class="col-auto"> 
-                                                     <a href="addmap.php" class="btn btn-success btn-lg " role="button" aria-pressed="true"><i class="fa fa-plus"></i> &nbsp;เพิ่มร้านประจำ</a>
+                                                     <a href="addcategory.php" class="btn btn-success btn-lg " role="button" aria-pressed="true"><i class="fa fa-plus"></i> &nbsp;เพิ่มประเภท</a>
                                             </div>
                                         </div>
 
@@ -284,22 +284,27 @@
                                         <thead>
                                             <tr>
                                                 <th>No.</th>
-                                                <th>รูปร้าน</th>
-                                                <th>เส้นทาง</th>
-                                                <th>เบอร์ติดต่อ</th>
+                                                <th>รูปประเภท</th>
+                                                <th>ชื่อประเภท</th>
+                                                <th>ราคา/คอร์ส</th>
+                                                <th>จักการ</th>
                                                
                                             </tr>
                                         </thead>
                                         <tbody>
+
+
                                             <tr>
                                                 <td>1.</td>
-                                                <td><img src="images/map/1.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
+                                                <td><img src="images/price/1.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-warning">
-                                                         <i class="fas fa-map-marker-alt"></i>
-                                                                 </li>ดูเส้นทาง
-                                                    </button>
-                                                    
+                                                    คอร์สบอดี้เวท (Body Weight)
+                                                </td>
+                                                <td>
+                                                    500 ฿
+                                                </td>
+                                                <td>
+                                                    <a href="http://localhost/pro/User/bodyweight.php" class="btn btn-info " role="button" aria-pressed="true"><i class="fas fa-search-plus"></i> &nbsp;ดูเพิ่มเติม</a>
 
                                                     <button type="button" class="btn btn-success">
                                                          <i class="fas fa-wrench"></i>
@@ -309,23 +314,26 @@
 
 
                                                     <button type="button" class="btn btn-danger">
-                                                    <i class="fa fa-trash-o"></i>
+                                                    <i class="far fa-trash-alt"></i>
                                                                  </li>ลบ
                                                     </button>
-                                                    
+                                                
                                                 </td>
-                                                <td>02-589-9947</td>
                                             </tr> 
-                                        </tbody>
 
-                                        <tbody>
                                             <tr>
                                                 <td>2.</td>
-                                                <td><img src="images/map/2.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
+                                                <td><img src="images/price/2.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-warning">
-                                                         <i class="fas fa-map-marker-alt"></i>
-                                                                 </li>ดูเส้นทาง
+                                                     คอร์สคาร์ดิโอ (Cardio)
+                                                </td>
+                                                <td>
+                                                    500 ฿
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-info">
+                                                        <i class="fas fa-search-plus"></i>
+                                                                 </li>ดูเพิ่มเติม
                                                     </button>
                                                     
 
@@ -337,23 +345,26 @@
 
 
                                                     <button type="button" class="btn btn-danger">
-                                                    <i class="fa fa-trash-o"></i>
+                                                    <i class="far fa-trash-alt"></i>
                                                                  </li>ลบ
                                                     </button>
-
+                                                
                                                 </td>
-                                                <td>02-589-9947</td>
                                             </tr> 
-                                        </tbody>
-
-                                        <tbody>
+                                       
                                             <tr>
                                                 <td>3.</td>
-                                                <td><img src="images/map/3.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
+                                                <td><img src="images/price/3.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-warning">
-                                                         <i class="fas fa-map-marker-alt"></i>
-                                                                 </li>ดูเส้นทาง
+                                                       คอร์สพิลาทิส (Pilates)
+                                                </td>
+                                                <td>
+                                                    500 ฿
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-info">
+                                                        <i class="fas fa-search-plus"></i>
+                                                                 </li>ดูเพิ่มเติม
                                                     </button>
                                                     
 
@@ -365,23 +376,26 @@
 
 
                                                     <button type="button" class="btn btn-danger">
-                                                    <i class="fa fa-trash-o"></i>
+                                                    <i class="far fa-trash-alt"></i>
                                                                  </li>ลบ
                                                     </button>
-                                                    
+                                                
                                                 </td>
-                                                <td>02-589-9947</td>
                                             </tr> 
-                                        </tbody>
-
-                                        <tbody>
+                                            
                                             <tr>
                                                 <td>4.</td>
-                                                <td><img src="images/map/4.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
+                                                <td><img src="images/price/4.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-warning">
-                                                         <i class="fas fa-map-marker-alt"></i>
-                                                                 </li>ดูเส้นทาง
+                                                     คอร์สแทรมโพลีน(Trampoline)
+                                                </td>
+                                                <td>
+                                                    500 ฿
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-info">
+                                                        <i class="fas fa-search-plus"></i>
+                                                                 </li>ดูเพิ่มเติม
                                                     </button>
                                                     
 
@@ -393,14 +407,77 @@
 
 
                                                     <button type="button" class="btn btn-danger">
-                                                    <i class="fa fa-trash-o"></i>
+                                                    <i class="far fa-trash-alt"></i>
                                                                  </li>ลบ
                                                     </button>
-                                                    
+                                                
                                                 </td>
-                                                <td>02-589-9947</td>
                                             </tr> 
+                                            
+                                            <tr>
+                                                <td>5.</td>
+                                                <td><img src="images/price/5.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
+                                                <td>
+                                                      คอร์สโยคะร้อน (Hot Yoga)
+                                                </td>
+                                                <td>
+                                                    500 ฿
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-info">
+                                                        <i class="fas fa-search-plus"></i>
+                                                                 </li>ดูเพิ่มเติม
+                                                    </button>
+                                                    
+
+                                                    <button type="button" class="btn btn-success">
+                                                         <i class="fas fa-wrench"></i>
+                                                                 </li>แก้ไข
+                                                    </button>
+                                                    
+
+
+                                                    <button type="button" class="btn btn-danger">
+                                                    <i class="far fa-trash-alt"></i>
+                                                                 </li>ลบ
+                                                    </button>
+                                                
+                                                </td>
+                                            </tr> 
+                                            
+                                            <tr>
+                                                <td>6.</td>
+                                                <td><img src="images/price/6.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
+                                                <td>
+                                                       คอร์สโยคะเย็น (Cool Yoga)
+                                                </td>
+                                                <td>
+                                                    500 ฿
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-info">
+                                                        <i class="fas fa-search-plus"></i>
+                                                                 </li>ดูเพิ่มเติม
+                                                    </button>
+                                                    
+
+                                                    <button type="button" class="btn btn-success">
+                                                         <i class="fas fa-wrench"></i>
+                                                                 </li>แก้ไข
+                                                    </button>
+                                                    
+
+
+                                                    <button type="button" class="btn btn-danger">
+                                                    <i class="far fa-trash-alt"></i>
+                                                                 </li>ลบ
+                                                    </button>
+                                                
+                                                </td>
+                                            </tr> 
+                                                                             
                                         </tbody>
+                                        
                                     </table>
                                 </div>
                                 <!-- END DATA TABLE-->
