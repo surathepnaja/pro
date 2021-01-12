@@ -51,13 +51,14 @@
 
                         </div>
                         <div class="login-form">
-                            <form action="" method="post">
+                            <form action="checklogin.php" method="post">
+                            
                                           <div class="row form-group">
                                                 <div class="col col-md-3">
                                                     <label for="hf-email" class=" form-control-label">Email : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="email" id="hf-email" name="hf-email" placeholder="กรอกอีเมลที่สมัคร" class="form-control">
+                                                    <input type="email"  name="hfemail" placeholder="กรอกอีเมลที่สมัคร" class="form-control">
                                                     
                                                 </div>
                                             </div>
@@ -67,7 +68,10 @@
                                                     <label for="hf-password" class=" form-control-label">Password : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="password" id="hf-password" name="hf-password" placeholder="รหัสผ่านที่สมัคร" class="form-control">
+                                                    <input type="password"  name="hfpassword" placeholder="รหัสผ่านที่สมัคร" class="form-control">
+                                                    
+
+
                                                     
                                                 </div>
                                             </div>
