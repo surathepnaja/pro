@@ -181,154 +181,148 @@
 
     
 
-    <div class="row">
+              <div class="row">
 
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">  
-        
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><img src="img/index/view1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50" >&nbsp; &nbsp; <a href="" class="card-link">Ploys Healthdiary</a></li>          
-       </ul>        
-          <a href="#"><img class="card-img-top" src="img/weight/bodyweight1.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">สลายไขมัน ฟิตกล้ม </a>
-            </h4>
-            <h5>ราคาเริ่มต้น 500 บาท</h5>
-            <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
-          </div>
-          <div class="card-footer">
-            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                             สมัครเรียน
-            </button>
-          &nbsp;
-          <button type="button" class="btn btn-danger">จองวันเรียน</button>
-          </div>
-        </div>
-      </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card h-100">  
+                  
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><img src="img/index/view1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50" >&nbsp; &nbsp; <a href="" class="card-link">Ploys Healthdiary</a></li>          
+                </ul>        
+                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight1.jpg" alt=""></a>
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <a href="#">สลายไขมัน ฟิตกล้ม </a>
+                      </h4>
+                      <h5>ราคาเริ่มต้น 500 บาท</h5>
+                      <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
+                    &nbsp;
+                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
+                    </div>
+                  </div>
+                </div>
 
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">  
-        
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><img src="img/profile/pro1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp; <a href="home.php" class="card-link"> SaenSuk Running</a> </li>          
-       </ul>        
-          <a href="#"><img class="card-img-top" src="img/weight/bodyweight2.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">สลายไขมัน ฟิตกล้ม </a>
-            </h4>
-            <h5>ราคาเริ่มต้น 500 บาท</h5>
-            <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
-          </div>
-          <div class="card-footer">
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                             สมัครเรียน
-          </button>
-          &nbsp;
-          <button type="button" class="btn btn-danger">จองวันเรียน</button>
-          </div>
-        </div>
-      </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card h-100">  
+                  
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><img src="img/profile/pro1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp; <a href="home.php" class="card-link"> SaenSuk Running</a> </li>          
+                </ul>        
+                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight2.jpg" alt=""></a>
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <a href="#">สลายไขมัน ฟิตกล้ม </a>
+                      </h4>
+                      <h5>ราคาเริ่มต้น 500 บาท</h5>
+                      <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
+                    </div>
+                    <div class="card-footer">
+                         <a href="register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
+                    &nbsp;
+                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
+                    </div>
+                  </div>
+                </div>
 
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">  
-        
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><img src="img/profile/pro2.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp; &nbsp; &nbsp; <a href="home.php" class="card-link">Ploys Healthdiary</a></li>          
-       </ul>        
-          <a href="#"><img class="card-img-top" src="img/weight/bodyweight3.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">สลายไขมัน ฟิตกล้ม </a>
-            </h4>
-            <h5>ราคาเริ่มต้น 500 บาท</h5>
-            <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
-          </div>
-          <div class="card-footer">
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                             สมัครเรียน
-          </button>
-          &nbsp;
-          <button type="button" class="btn btn-danger">จองวันเรียน</button>
-          </div>
-        </div>
-      </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card h-100">  
+                  
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><img src="img/profile/pro2.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp; &nbsp; &nbsp; <a href="home.php" class="card-link">Ploys Healthdiary</a></li>          
+                </ul>        
+                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight3.jpg" alt=""></a>
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <a href="#">สลายไขมัน ฟิตกล้ม </a>
+                      </h4>
+                      <h5>ราคาเริ่มต้น 500 บาท</h5>
+                      <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
+                    </div>
+                    <div class="card-footer">
+                         <a href="register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
+                    &nbsp;
+                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
+                    </div>
+                  </div>
+                </div>
 
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">  
-        
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><img src="img/profile/pro3.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp;&nbsp; &nbsp; <a href="home.php" class="card-link">Ploys Healthdiary</a></li>          
-       </ul>        
-          <a href="#"><img class="card-img-top" src="img/weight/bodyweight4.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">สลายไขมัน ฟิตกล้ม </a>
-            </h4>
-            <h5>ราคาเริ่มต้น 500 บาท</h5>
-            <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
-          </div>
-          <div class="card-footer">
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                             สมัครเรียน
-          </button>
-          &nbsp;
-          <button type="button" class="btn btn-danger">จองวันเรียน</button>
-          </div>
-        </div>
-      </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card h-100">  
+                  
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><img src="img/profile/pro3.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp;&nbsp; &nbsp; <a href="home.php" class="card-link">Ploys Healthdiary</a></li>          
+                </ul>        
+                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight4.jpg" alt=""></a>
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <a href="#">สลายไขมัน ฟิตกล้ม </a>
+                      </h4>
+                      <h5>ราคาเริ่มต้น 500 บาท</h5>
+                      <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
+                    </div>
+                    <div class="card-footer">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                                      สมัครเรียน
+                    </button>
+                    &nbsp;
+                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
+                    </div>
+                  </div>
+                </div>
 
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">  
-        
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><img src="img/index/view1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp; &nbsp; &nbsp; <a href="home.php" class="card-link">Ploys Healthdiary</a></li>          
-       </ul>        
-          <a href="#"><img class="card-img-top" src="img/weight/bodyweight5.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">สลายไขมัน ฟิตกล้ม </a>
-            </h4>
-            <h5>ราคาเริ่มต้น 500 บาท</h5>
-            <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
-          </div>
-          <div class="card-footer">
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                             สมัครเรียน
-          </button>
-          &nbsp;
-          <button type="button" class="btn btn-danger">จองวันเรียน</button>
-          </div>
-        </div>
-      </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card h-100">  
+                  
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><img src="img/index/view1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp; &nbsp; &nbsp; <a href="home.php" class="card-link">Ploys Healthdiary</a></li>          
+                </ul>        
+                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight5.jpg" alt=""></a>
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <a href="#">สลายไขมัน ฟิตกล้ม </a>
+                      </h4>
+                      <h5>ราคาเริ่มต้น 500 บาท</h5>
+                      <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
+                    </div>
+                    <div class="card-footer">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                                      สมัครเรียน
+                    </button>
+                    &nbsp;
+                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
+                    </div>
+                  </div>
+                </div>
 
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">  
-        
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item"><img src="img/index/view1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp; &nbsp; &nbsp; <a href="home.php" class="card-link">Ploys Healthdiary</a></li>          
-       </ul>        
-          <a href="#"><img class="card-img-top" src="img/weight/bodyweight6.jpg" alt=""></a>
-          <div class="card-body">
-            <h4 class="card-title">
-              <a href="#">สลายไขมัน ฟิตกล้ม </a>
-            </h4>
-            <h5>ราคาเริ่มต้น 500 บาท</h5>
-            <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
-          </div>
-          <div class="card-footer">
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                             สมัครเรียน
-          </button>
-          &nbsp;
-          <button type="button" class="btn btn-danger">จองวันเรียน</button>
-          </div>
-        </div>
-      </div>   
+                <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card h-100">  
+                  
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><img src="img/index/view1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp; &nbsp; &nbsp; <a href="home.php" class="card-link">Ploys Healthdiary</a></li>          
+                </ul>        
+                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight6.jpg" alt=""></a>
+                    <div class="card-body">
+                      <h4 class="card-title">
+                        <a href="#">สลายไขมัน ฟิตกล้ม </a>
+                      </h4>
+                      <h5>ราคาเริ่มต้น 500 บาท</h5>
+                      <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
+                    </div>
+                    <div class="card-footer">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                                      สมัครเรียน
+                    </button>
+                    &nbsp;
+                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
+                    </div>
+                  </div>
+                </div>   
 
 
-    </div>
+              </div>
     <!-- /.row -->
 
   </div>
