@@ -91,20 +91,20 @@ include('connect.php');
                         $_SESSION['login'] = "true";
                         $_SESSION['userstats'] = "Trainer";
                         $_SESSION['username'] = $row['username'];
-                        echo "<meta http-equiv='refresh' content='0;url=home.php'>";
+                        echo "<meta http-equiv='refresh' content='0;url=../Trainer/index.php'>";
                     }
     
                     if ($row['userstats'] == "Customer") {
                         $_SESSION['login'] = "true";
                         $_SESSION['userstats'] = "Customer";
                         $_SESSION['username'] = $row['username'];
-                        echo "<meta http-equiv='refresh' content='0;url=Customer/index.php'>";
+                        echo "<meta http-equiv='refresh' content='0;url=../Customer/index.php'>";
                     }
                     if ($row['userstats'] == "Admin") {
                         $_SESSION['login'] = "true";
                         $_SESSION['userstats'] = "Admin";
                         $_SESSION['username'] = $row['username'];
-                        echo "<meta http-equiv='refresh' content='0;url=home.php'>";
+                        echo "<meta http-equiv='refresh' content='0;url=../admin/index.php'>";
                     }
                 }
 
