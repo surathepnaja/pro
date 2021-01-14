@@ -366,6 +366,31 @@
                                                          </label>  
                                                     </div>
                                                 </div>
+
+                                                                                          
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label class=" form-control-label">วันที่เปิดสอน : </label>
+                                                    </div>
+                                                    <div class="col col-md-9">
+                                                         <label for="textarea-input" class=" form-control-label"> 
+                                                            ทุกวัน
+                                                         </label>  
+                                                    </div>
+                                                </div>
+
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label class=" form-control-label">สถานที่สอน : </label>
+                                                    </div>
+                                                    <div class="col col-md-9">
+                                                         <label for="textarea-input" class=" form-control-label"> 
+                                                            <a href="home.php" class="card-link">DD Fitness</a>
+                                                            <a href="home.php" class="card-link">Mentor Gym</a>
+                                                            <a href="home.php" class="card-link">Novel Fitness & Sauna</a>
+                                                         </label>  
+                                                    </div>
+                                                </div>
                                              
                                              
                                                 
@@ -390,8 +415,7 @@
                 </div>
 
             </div>
-              </div>
-            </div>
+             
                  
            
 
