@@ -72,7 +72,7 @@
         </div>
         <div class="row">
             <div class="col-md-4 col-sm-6 portfolio-item">
-            <a href="bodyweight.php">           
+            <a href="bodyweight1.php">           
                 <img class="img-fluid" src="img/index/bodyweight.jpg">
             </a>
             <div class="text-center"><br>
