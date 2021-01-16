@@ -1,24 +1,47 @@
-<?php session_start();?> 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Required meta tags-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
+    <link rel="icon" href="/pro/User/img/laravel.png">
+    <!-- Title Page-->
     <title>FITNESS TRAINER</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="icon" href="img/laravel.png">
+
+    <!-- Fontfaces CSS-->
+    <link href="css/font-face.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+
+    <!-- Bootstrap CSS-->
+    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+    
+
+    <!-- Main CSS-->
+    <link href="css/theme.css" rel="stylesheet" media="all">
+    <link href="fontawesome-free-5.15.1-web/css/all.css" rel="stylesheet"> 
+
 </head>
-<body>
 
-
-
-  
-    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">  
+<body class="animsition">
+   
+        <!-- HEADER DESKTOP-->            
+            <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">  
               <div class="container">       
-                <a class="navbar-brand" href="index.php">Fitness Trainer</a>
+                <a class="navbar-brand" href="/pro/User/index.php">Fitness Trainer</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -31,17 +54,17 @@
                         </li>
 
                         <li class="nav-item active">
-                            <a class="nav-link" href="course.php">คอร์สเรียน</a>
+                            <a class="nav-link" href="/pro/User/course.php">คอร์สเรียน</a>
                         </li>
                              <br>
                         <li class="nav-item">
-                            <a class="nav-link" href="review.php">ผลงานนักเรียน</a>
+                            <a class="nav-link" href="/pro/User/review.php">ผลงานนักเรียน</a>
                         </li>
 
                         <li class="nav-item dropdown">
                               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="blog.php" role="button" aria-haspopup="true" aria-expanded="false">บทความ</a>
                               <div class="dropdown-menu text-center">
-                                <a class="dropdown-item" href="nutrition.php">Nutrition Articles</a>
+                                <a class="dropdown-item" href="/pro/User/nutrition.php">Nutrition Articles</a>
                                 <a class="dropdown-item" href="#">Cardio</a>
                                 <a class="dropdown-item" href="#">Weight training</a>
                                 <a class="dropdown-item" href="#">News Update</a>
@@ -51,342 +74,269 @@
                        </li>
 
                         <li class="nav-item">
-                             <a class="nav-link" href="login.php" target="_blank">เข้าสู่ระบบ</a>
+                             <a class="nav-link" href="/pro/User/login.php" target="_blank">เข้าสู่ระบบ</a>
                         </li>
                         
                         <li class="nav-item">  
-                              <a href="register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
-                        </li>
-
-                          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                              <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">สมัครเรียนกันเราทันที</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                      <span aria-hidden="true">&times;</span>
-                                    </button>
-                                  </div>
-                                  <div class="modal-body"> 
-                                        <form>
-                                            <div class="form-row">
-                                              <div class="col-md-4 mb-3">
-                                                <label for="validationServer01">ชื่อจริง</label>
-                                                <input type="text" class="form-control is-valid" id="validationServer01" placeholder="กรอกชื่อ">
-                                             
-                                              </div>
-                                              <div class="col-md-4 mb-3">
-                                                <label for="validationServer02">นามสกุล</label>
-                                                <input type="text" class="form-control is-valid" id="validationServer02" placeholder="กรอกนามสกุล">
-                                              
-                                              </div>
-                                                <div class="col-md-4 mb-3">
-                                                <label for="sel1">เพศ</label>
-                                                      <select class="form-control" id="sel1">
-                                                        <option>เลือก</option>
-                                                        <option>ชาย</option>
-                                                        <option>หญิง</option>                                                      
-                                                      </select>
-                                                </div>                                              
-                                            </div>
-
-
-                                            <div class="form-row">                                                                                          
-                                              <div class="col-md-3 mb-3">
-                                                <label for="validationDefault04">อายุ</label>
-                                                <input type="text" class="form-control" id="validationDefault04" placeholder="กรอกอายุ" required>
-                                              </div>
-                                              <div class="col-md-4 mb-2">
-                                                <label for="validationDefault05">น้ำหนัก/ส่วนสูง</label>
-                                                <input type="text" class="form-control" id="validationDefault05" placeholder="กรอกข้อมูล" required>
-                                              </div>
-                                              <div class="col-md-5 mb-3">
-                                                <label for="validationDefault03">เบอร์ติดต่อ</label>
-                                                <input type="text" class="form-control" id="validationDefault03" placeholder="กรอกหมายเลขโทรศัพท์" required>
-                                              </div>
-                                            </div>
-
-                                            <div class="form-row">
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="inputEmail4">Email</label>
-                                                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                                                </div>
-                                             
-
-                                                <div class="col-md-6 mb-3">
-                                                    <label for="inputPassword4">Password</label>
-                                                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-                                                </div>
-                                            </div>                                        
-                                            
-
-                                            <div class="form-row">
-                                              <div class="col-md-6 mb-3">    
-                                              <label for="exampleFormControlTextarea1">ที่อยู่</label>
-                                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="กรอกที่อยู่ของท่าน"></textarea>                                            
-                                              </div>
-
-                                              <div class="col-md-6 mb-3">    
-                                              <label for="exampleFormControlTextarea1">จังหวัด</label>
-                                                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="กรอกจังหวัด"></textarea>                                            
-                                              </div>
-                                            </div>
-                                         
-                                          </form>
-
-
-
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">ปิด</button>
-                                    <button type="button" class="btn btn-success">ส่งข้อมูล</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
+                              <a href="/pro/User/register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
                         </li>
                    </ul>                  
                 </div>
-
              </div>
-      </nav>    
+            </nav>    
       
-        <br>       
-        <div class="container">
+    
+        
+        <!-- END HEADER DESKTOP -->
 
-<div class="row">
+        <!-- WELCOME-->
+        
+        <!-- END WELCOME-->
 
-  <div class="col-lg-3">
+        <!-- PAGE CONTENT-->
+        <div class="page-container3">
+            <section class="alert-wrap p-t-10 p-b-10">
+              
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <!-- MENU SIDEBAR-->
+                            <aside class="menu-sidebar3 js-spe-sidebar">
+                                <nav class="navbar-sidebar2 navbar-sidebar3">
+                                  <h1 class="my-3">&nbsp;&nbsp;&nbsp;จองคอร์สเรียน</h1>
+                                    <div class="list-group text-center">
+                                        <a href="bodyweight1.php" class="list-group-item active">Body Weight</a>
+                                        <a href="#" class="list-group-item">Cardio</a>
+                                        <a href="#" class="list-group-item">Pilates</a>
+                                        <a href="#" class="list-group-item">Trampoline</a>
+                                        <a href="#" class="list-group-item">Hot Yoga</a>
+                                        <a href="#" class="list-group-item">Hot Yoga</a>    
+                                    </div>
+                                </nav>
+                            </aside>
+                            <!-- END MENU SIDEBAR-->
+                        </div>
 
-    <h1 class="my-4">จองคอร์สเรียน</h1>
-    <div class="list-group text-center">
-      <a href="#" class="list-group-item active">Body Weight</a>
-      <a href="#" class="list-group-item">Cardio</a>
-      <a href="#" class="list-group-item">Pilates</a>
-      <a href="#" class="list-group-item">Trampoline</a>
-      <a href="#" class="list-group-item">Hot Yoga</a>
-      <a href="#" class="list-group-item">Hot Yoga</a>    
+                        <div class="col-xl-9">
+                            <!-- PAGE CONTENT-->
+                            <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#">คอร์สเรียน</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Body Weight</li>
+                                    </ol>
+                            </nav>
+
+                            <div class="page-content">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="card">
+
+                                            <div class="card-header">
+                                                    <img src="img/profile/pro1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50" href="">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <strong class="card-title mb-3"> <a href="" class="card-link">Ploys &nbsp; Healthdiary</a>   </strong> 
+                                            </div>
+                                                        <a href="bodyweight1.php">           
+                                                                <img class="card-img-top" src="images/coures/1.jpg" alt="Card image cap" >
+                                                        </a>
+                                                                                
+                                                        <div class="card-body">
+                                                            <h5 class="card-title mb-3">หมวดหมู่ : Body Weight</h5>
+                                                            <h5 class="card-title mb-3">รูปแบบการสอน : เทรนเดียว</h5>
+                                                            <p class="card-text">วันที่เปิดสอน : ทุกวัน </p>
+                                                        </div>
+
+
+                                                        <div class="card-footer">
+                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
+                        
+                                                        </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card">
+
+                                            <div class="card-header">
+                                                    <img src="img/profile/pro2.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50" href="">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <strong class="card-title mb-3"> <a href="" class="card-link">Ploys &nbsp; Healthdiary</a>   </strong> 
+                                            </div>
+                                                        <a href="course.php">           
+                                                                <img class="card-img-top" src="img/weight/bodyweight1.jpg" alt="Card image cap" >
+                                                        </a>
+                                                                                
+                                                        <div class="card-body">
+                                                            <h5 class="card-title mb-3">หมวดหมู่ : Body Weight</h5>
+                                                            <h5 class="card-title mb-3">รูปแบบการสอน : เทรนเดียว</h5>
+                                                            <p class="card-text">วันที่เปิดสอน : ทุกวัน </p>
+                                                        </div>
+
+
+                                                        <div class="card-footer">
+                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
+                        
+                                                        </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card">
+
+                                            <div class="card-header">
+                                                    <img src="img/index/view1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50" href="">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <strong class="card-title mb-3"> <a href="" class="card-link">Ploys &nbsp; Healthdiary</a>   </strong> 
+                                            </div>
+                                                        <a href="course.php">           
+                                                                <img class="card-img-top" src="img/weight/bodyweight2.jpg" alt="Card image cap" >
+                                                        </a>
+                                                                                
+                                                        <div class="card-body">
+                                                            <h5 class="card-title mb-3">หมวดหมู่ : Body Weight</h5>
+                                                            <h5 class="card-title mb-3">รูปแบบการสอน : เทรนเดียว</h5>
+                                                            <p class="card-text">วันที่เปิดสอน : ทุกวัน </p>
+                                                        </div>
+
+
+                                                        <div class="card-footer">
+                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
+                        
+                                                        </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card">
+
+                                            <div class="card-header">
+                                                    <img src="img/profile/pro2.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50" href="">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <strong class="card-title mb-3"> <a href="" class="card-link">Ploys &nbsp; Healthdiary</a>   </strong> 
+                                            </div>
+                                                        <a href="course.php">           
+                                                                <img class="card-img-top" src="img/weight/bodyweight4.jpg" alt="Card image cap" >
+                                                        </a>
+                                                                                
+                                                        <div class="card-body">
+                                                            <h5 class="card-title mb-3">หมวดหมู่ : Body Weight</h5>
+                                                            <h5 class="card-title mb-3">รูปแบบการสอน : เทรนเดียว</h5>
+                                                            <p class="card-text">วันที่เปิดสอน : ทุกวัน </p>
+                                                        </div>
+
+
+                                                        <div class="card-footer">
+                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
+                        
+                                                        </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card">
+
+                                            <div class="card-header">
+                                                    <img src="img/profile/pro2.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50" href="">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <strong class="card-title mb-3"> <a href="" class="card-link">Ploys &nbsp; Healthdiary</a>   </strong> 
+                                            </div>
+                                                        <a href="course.php">           
+                                                                <img class="card-img-top" src="img/weight/bodyweight5.jpg" alt="Card image cap" >
+                                                        </a>
+                                                                                
+                                                        <div class="card-body">
+                                                            <h5 class="card-title mb-3">หมวดหมู่ : Body Weight</h5>
+                                                            <h5 class="card-title mb-3">รูปแบบการสอน : เทรนเดียว</h5>
+                                                            <p class="card-text">วันที่เปิดสอน : ทุกวัน </p>
+                                                        </div>
+
+
+                                                        <div class="card-footer">
+                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
+                        
+                                                        </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="card">
+
+                                            <div class="card-header">
+                                                    <img src="img/profile/pro2.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50" href="">
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <strong class="card-title mb-3"> <a href="" class="card-link">Ploys &nbsp; Healthdiary</a>   </strong> 
+                                            </div>
+                                                        <a href="course.php">           
+                                                                <img class="card-img-top" src="img/weight/bodyweight6.jpg"alt="Card image cap" >
+                                                        </a>
+                                                                                
+                                                        <div class="card-body">
+                                                            <h5 class="card-title mb-3">หมวดหมู่ : Body Weight</h5>
+                                                            <h5 class="card-title mb-3">รูปแบบการสอน : เทรนเดียว</h5>
+                                                            <p class="card-text">วันที่เปิดสอน : ทุกวัน </p>
+                                                        </div>
+
+
+                                                        <div class="card-footer">
+                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
+                        
+                                                        </div>
+                                        </div>
+                                    </div>
+                            
+                                </div>
+                               
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="copyright">
+                                            <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END PAGE CONTENT-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- END PAGE CONTENT  -->
+
     </div>
 
-  </div>
-  <!-- /.col-lg-3 -->
-  
-  <div class="col-lg-9">
+    <!-- Jquery JS-->
+    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap JS-->
+    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <!-- Vendor JS       -->
+    <script src="vendor/slick/slick.min.js">
+    </script>
+    <script src="vendor/wow/wow.min.js"></script>
+    <script src="vendor/animsition/animsition.min.js"></script>
+    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    </script>
+    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="vendor/counter-up/jquery.counterup.min.js">
+    </script>
+    <script src="vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="vendor/select2/select2.min.js">
+    </script>
 
-  <nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="#">คอร์สเรียน</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Body Weight</li>
-  </ol>
-</nav>
-
-    
-
-              <div class="row">
-
-              <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="card h-100">  
-                  
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img src="img/profile/pro2.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50" href="">
-                       &nbsp; &nbsp; <a href="" class="card-link">Ploys Healthdiary</a></li>          
-                </ul>        
-                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight3.jpg" alt=""></a>
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        <a href="bodyweight1.php">InDepth Exercise เจาะลึก 45 ท่าเล่นเวทที่สำคัญ </a>
-                      </h5>                                            
-                      <h6>รูปแบบการสอน : เทรนเดียว</h6>
-                      <h6> วันทีเปิดสอน : ทุกวัน</h6>
-                    </div>
-
-                    <div class="card-footer">
-                         <a href="register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
-                    &nbsp;
-                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="card h-100">  
-                  
-                  <ul class="list-group list-group-flush">
-                     <li class="list-group-item"><img src="img/index/view1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50" >
-                       &nbsp; <a href="" class="card-link">Ploys Healthdiary</a> 
-                       
-                     </li>          
-                  </ul>    
-                      
-                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight1.jpg" alt=""></a>
-                    <div class="card-body">
-                      <h4 class="card-title">
-                        <a href="#">สลายไขมัน ฟิตกล้ม </a>
-                      </h4>
-                      <h5>ราคาเริ่มต้น 500 บาท</h5>
-                      <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
-                    &nbsp;
-                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="card h-100">  
-                  
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img src="img/profile/pro1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp; <a href="home.php" class="card-link"> SaenSuk Running</a> </li>          
-                </ul>        
-                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight2.jpg" alt=""></a>
-                    <div class="card-body">
-                      <h4 class="card-title">
-                        <a href="#">สลายไขมัน ฟิตกล้ม </a>
-                      </h4>
-                      <h5>ราคาเริ่มต้น 500 บาท</h5>
-                      <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
-                    </div>
-                    <div class="card-footer">
-                         <a href="register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
-                    &nbsp;
-                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
-                    </div>
-                  </div>
-                </div>
-
-              
-                <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="card h-100">  
-                  
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img src="img/profile/pro3.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp;&nbsp; &nbsp; <a href="home.php" class="card-link">Ploys Healthdiary</a></li>          
-                </ul>        
-                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight4.jpg" alt=""></a>
-                    <div class="card-body">
-                      <h4 class="card-title">
-                        <a href="#">สลายไขมัน ฟิตกล้ม </a>
-                      </h4>
-                      <h5>ราคาเริ่มต้น 500 บาท</h5>
-                      <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
-                    </div>
-                    <div class="card-footer">
-                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                                      สมัครเรียน
-                    </button>
-                    &nbsp;
-                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="card h-100">  
-                  
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img src="img/index/view1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp; &nbsp; &nbsp; <a href="home.php" class="card-link">Ploys Healthdiary</a></li>          
-                </ul>        
-                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight5.jpg" alt=""></a>
-                    <div class="card-body">
-                      <h4 class="card-title">
-                        <a href="#">สลายไขมัน ฟิตกล้ม </a>
-                      </h4>
-                      <h5>ราคาเริ่มต้น 500 บาท</h5>
-                      <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
-                    </div>
-                    <div class="card-footer">
-                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                                      สมัครเรียน
-                    </button>
-                    &nbsp;
-                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 mb-4">
-                  <div class="card h-100">  
-                  
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><img src="img/index/view1.jpg" class="rounded-circle" alt="Cinque Terre" width="50" height="50">&nbsp; &nbsp; &nbsp; &nbsp; <a href="home.php" class="card-link">Ploys Healthdiary</a></li>          
-                </ul>        
-                    <a href="#"><img class="card-img-top" src="img/weight/bodyweight6.jpg" alt=""></a>
-                    <div class="card-body">
-                      <h4 class="card-title">
-                        <a href="#">สลายไขมัน ฟิตกล้ม </a>
-                      </h4>
-                      <h5>ราคาเริ่มต้น 500 บาท</h5>
-                      <p class="card-text">เเบ่งเรียนวันล่ะ 2 ชม. ใน 1 เดือนเจอกัน 4 ครั้ง ...  อ่านเพิ่มเติม</p>
-                    </div>
-                    <div class="card-footer">
-                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-                                      สมัครเรียน
-                    </button>
-                    &nbsp;
-                    <button type="button" class="btn btn-danger">จองวันเรียน</button>
-                    </div>
-                  </div>
-                </div>   
-
-
-              </div>
-    <!-- /.row -->
-
-  </div>
-  <!-- /.col-lg-9 -->
-
-</div>
-<!-- /.row -->
-
-</div>
-
-
-      
-        
-                    <div class="container">
-                    
-                          <div class="row">
-                            <div class="col">
-                             
-                            </div>
-                            <div class="col">
-                          
-                            <nav aria-label="...">
-                                <ul class="pagination">
-                                  <li class="page-item disabled">
-                                    <a class="page-link" href="#" tabindex="-1">Previous</a>
-                                  </li>
-                                  <li class="page-item active">
-                                    <a class="page-link" href="#">1</a></li>
-
-                                  <li class="page-item ">
-                                    <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-                                  </li>
-
-                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                  <li class="page-item">
-                                    <a class="page-link" href="#">Next</a>
-                                  </li>
-                                </ul>
-                              </nav>
-                            </div>                         
-                          </div>
-
-                    </div>
-                
-    
-    
-    
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Fitness Trainer 2019</p>
-      </div>
-      <!-- /.container -->
-     </footer>
-    
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>   
+    <!-- Main JS-->
+    <script src="js/main.js"></script>
 
 </body>
-</html>
+
+</php>
+<!-- end document-->
