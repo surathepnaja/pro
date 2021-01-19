@@ -71,6 +71,18 @@
                             <a href="history.php">
                              <i class="fas fa-book"></i>ประวัติการเรียน</a>                          
                         </li>
+
+                        <li>
+                            <a href="mytrainer.php">
+                             <i class="fas fa-bell"></i>เทรน์เนอร์ของฉัน</a>                          
+                        </li>
+
+
+                        <li>
+                             <a href="eat.php">
+                             <i class="fas fa-utensils"></i></i>เพิ่มข้อมูลการกิน</a>                          
+                        </li>
+
                     </ul>
                 </nav>
             </div>

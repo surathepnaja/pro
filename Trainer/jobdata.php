@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -82,14 +83,14 @@
                         </li>
 
 
-                        <li class="active has-sub">
+                        <li>
                             <a href="blog.php">
                             <i class="fas fa-copy"></i>เขียนบทความ</a>                          
                         </li>
 
 
 
-                        <li class="has-sub">
+                        <li>
                             <a href="history.php">
                              <i class="fas fa-book"></i>ประวัติการสอน</a>                          
                         </li>
@@ -279,124 +280,195 @@
             <!-- HEADER DESKTOP-->
 
             <!-- MAIN CONTENT-->
-            <div class="main-content">
-                <div class="section__content section__content--p30">
-                    <div class="container-fluid">
+            <div class="row">
+                  <div class="col-md-8 offset-md-1 mr-auto ml-auto">
+                       <div class="main-content">
+                       <div class="page-content">
+                                <div class="row">
+                                    <div class="col-md-12 offset-md-1 mr-auto ml-auto">
+                                        <div class="card">
+
+                                                        <div class="card-header">
+                                                            
+                                                               
+                                                                <h4 class="text-center title-2"> วันที่ลูกค้าจอง </h4>
+                                                        </div>
+                                                        
+                                                                                
+                                                        <div class="card-body">
+
+                                                                <form action="" method="post" novalidate="novalidate">   
+                                                                   
+                                                                              <div class="row">
+
+                                                                                    <div class="col-md-2 mb-1">
+                                                                                            <label for="validationDefault01">&nbsp;&nbsp;&nbsp;</label>
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="วันที่ 1" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-3">
+                                                                                            <label for="validationDefault02">วันที่</label>
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="20/02/2020" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-1">
+                                                                                                <label for="validationDefaultUsername">คาบสอน</label>
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="รอบเข้า 9.00-11.00 น." disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-4 mb-3">
+                                                                                                <label for="validationDefaultUsername">เลือกสถานที่สอน</label>
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="DD Fitness " disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    
+
+                                                                                    <div class="col-md-2 mb-1">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="วันที่ 2" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-3">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="21/02/2020" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-1">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="รอบเข้า 9.00-11.00 น." disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-4 mb-3">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="DD Fitness " disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    
+
+
+                                                                                    <div class="col-md-2 mb-1">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="วันที่ 3" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-3">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="22/02/2020" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-1">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="รอบเข้า 9.00-11.00 น." disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-4 mb-3">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="DD Fitness " disabled="" class="form-control">
+                                                                                    </div>
+
+
+
+
+                                                                                    <div class="col-md-2 mb-1">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="วันที่ 4" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-3">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="23/02/2020" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-1">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="รอบเข้า 9.00-11.00 น." disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-4 mb-3">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="DD Fitness " disabled="" class="form-control">
+                                                                                    </div>
+
+
+
+
+                                                                                    <div class="col-md-2 mb-1">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="วันที่ 5" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-3">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="24/02/2020" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-1">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="รอบเข้า 9.00-11.00 น." disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-4 mb-3">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="DD Fitness " disabled="" class="form-control">
+                                                                                    </div>
+
+
+
+
+                                                                                    <div class="col-md-2 mb-1">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="วันที่ 6" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-3">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="25/02/2020" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-1">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="รอบเข้า 9.00-11.00 น." disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-4 mb-3">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="DD Fitness " disabled="" class="form-control">
+                                                                                    </div>
+
+
+
+
+                                                                                    <div class="col-md-2 mb-1">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="วันที่ 7" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-3">
+                                                                                            <input type="text" id="disabled-input" name="disabled-input" placeholder="26/02/2020" disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-3 mb-1">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="รอบเข้า 9.00-11.00 น." disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    <div class="col-md-4 mb-3">
+                                                                                                <input type="text" id="disabled-input" name="disabled-input" placeholder="Mentor Gym " disabled="" class="form-control">
+                                                                                    </div>
+
+                                                                                    
+
+                                                                                           
+                                                                        <div class="col-md-4 offset-md-4 mr-auto ml-auto">
+                                                                              
+                                                                                 
+                                                                                 <button type="button" class="btn btn-info  btn-sm"><i class="far fa-calendar-check"></i>&nbsp;รับสอน</button>
+                                                                                 <button type="button" class="btn btn-danger  btn-sm"><i class="far fa-trash-alt"></i>&nbsp;ยกเลิก</button>
+                                                                                
+                                                                        </div>
+                                                                    </form>
+                                                      
+                                                        </div>                                                        
+                                        </div>
+                                    </div>
+
+                                                                 
+                            
+                                </div>
+                               
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="copyright">
+                                            <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                       </div>
+             
                  
-                                    
-                              <div class="row">
-                                        <div class="col-auto mr-auto"></div>
-                                            <div class="col-auto">  
-                                                  <a href="addblog.php" class="btn btn-success btn-lg " role="button" aria-pressed="true"><i class="fa fa-plus"></i> &nbsp;เพิ่มบทความ</a>
-                                            </div>
-                                       </div>
+                  </div>
 
-                    <div class="row m-t-30">
-                            <div class="col-md-12">
-                                <!-- DATA TABLE-->
-                                <div class="table-responsive m-b-40">
-                                <table class="table table-borderless table-striped table-earning text-center">
-                              
-                                        <thead>
-                                            <tr>
-                                                <th>ON.</th>
-                                                <th>รูปบทความ</th>
-                                                <th>จัดการบทความ</th>
-                                                <th>วันที่เผยแพร่</th>
-                                               
-                                            </tr>
-                                        </thead>
-                                       
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td><img src="images/blog/4.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
-                                                <td>
-                                                    
-                                                    <a class="btn btn-primary" href="/pro/User/nutrition1.php" target="_blank">
-                                                        <i class="fas fa-eye"></i>
-                                                          ดูบทความ
-                                                    </a>
-
-                                                    <button type="button" class="btn btn-danger">
-                                                         <i class="fas fa-wrench"></i>
-                                                          แก้ไข
-                                                    </button>
-
-                                                    <button type="button" class="btn btn-success">
-                                                         <i class="fas fa-share"></i>
-                                                          แชร์
-                                                    </button>
-
-                                                </td>
-                                                <td>02-05-2020</td>
-                                            </tr> 
-                                        
-                                            <tr>
-                                                <td>2</td>
-                                                <td><img src="images/blog/2.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
-                                                <td>
-                                                    <a class="btn btn-primary" href="/pro/User/nutrition1.php" target="_blank">
-                                                        <i class="fas fa-eye"></i>
-                                                          ดูบทความ
-                                                    </a>
-
-                                                    <button type="button" class="btn btn-danger">
-                                                         <i class="fas fa-wrench"></i>
-                                                          แก้ไข
-                                                    </button>
-
-                                                    <button type="button" class="btn btn-success">
-                                                         <i class="fas fa-share"></i>
-                                                          แชร์
-                                                    </button>
-
-                                                </td>
-                                                <td>02-05-2020</td>
-                                            </tr> 
-                                        
-                                            <tr>
-                                                <td>3</td>
-                                                <td><img src="images/blog/3.jpeg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
-                                                <td>
-                                                <a class="btn btn-primary" href="/pro/User/nutrition1.php" target="_blank">
-                                                        <i class="fas fa-eye"></i>
-                                                          ดูบทความ
-                                                    </a>
-
-                                                    <button type="button" class="btn btn-danger">
-                                                         <i class="fas fa-wrench"></i>
-                                                          แก้ไข
-                                                    </button>
-
-                                                    <button type="button" class="btn btn-success">
-                                                         <i class="fas fa-share"></i>
-                                                          แชร์
-                                                    </button>
-
-                                                </td>
-                                                <td>02-05-2020</td>
-                                            </tr> 
-                                        </tbody>
-
-                                   </table>
-                                </div>
-                                <!-- END DATA TABLE-->
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="copyright">
-                                    <p>Copyright © 2018 Colorlib. All rights reserved. Template by <a href="https://colorlib.com">Colorlib</a>.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
+           </div>
 
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>

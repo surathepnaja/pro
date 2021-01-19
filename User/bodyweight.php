@@ -151,7 +151,7 @@
 
                                                         <div class="card-footer">
                                                             <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
-                                                            <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
+                                                            <a href="book.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
                         
                                                         </div>
                                         </div>

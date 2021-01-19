@@ -304,14 +304,33 @@
                                                 </div>
 
 
-                                            <div class="row form-group">
-                                                <div class="col col-md-3">
-                                                    <label for="textarea-input" class=" form-control-label">เนื้อหาบทความ :</label>
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="textarea-input" class=" form-control-label">เนื้อหาบทความ :</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <textarea name="textarea-input" id="textarea-input" rows="9" placeholder="เขียนเรื่องราวที่น่าสนใจ" class="form-control"></textarea>
+                                                    </div>
+                                                </div>    
+
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="text-input" class=" form-control-label">ประเภทบทความ : </label>
+                                                    </div>
+                                                               
+                                                    <div class="input-group col-12 col-md-9">
+                                                           <select name="select" id="select" class="form-control">
+                                                               <option value="0">บทความโภชนาการ (Nutrition Articles)</option>
+                                                               <option value="1">คาร์ดิโออย่างถูกวิธี (Cardi)</option>
+                                                               <option value="2">การเพิ่มกล้ามเนื้อ (Weight training)</option>
+                                                               <option value="3">บทความอัพเดทข่าว (News Update)</option>
+                                                               <option value="4">บทความอาหาร (Foods)</option>
+                                                               <option value="5">โยคะ (Yoga)</option>
+                                                            </select>
+                                                    </div>
+                                                          
                                                 </div>
-                                                <div class="col-12 col-md-9">
-                                                    <textarea name="textarea-input" id="textarea-input" rows="9" placeholder="เขียนเรื่องราวที่น่าสนใจ" class="form-control"></textarea>
-                                                </div>
-                                            </div>    
+
 
                                                                              
                                                 
