@@ -78,7 +78,7 @@
                         </li>
                         
                         <li class="nav-item">  
-                              <a href="/pro/User/register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
+                              <a href="register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
                         </li>
                    </ul>                  
                 </div>
