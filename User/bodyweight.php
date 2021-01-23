@@ -147,10 +147,10 @@
                                                             <h5 class="card-title mb-3">รูปแบบการสอน : เทรนเดียว</h5>
                                                             <p class="card-text">วันที่เปิดสอน : ทุกวัน </p>
                                                         </div>
-
+                                                       
 
                                                         <div class="card-footer">
-                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="bodyweight1.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</a>&nbsp; 
                                                             <a href="book.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
                         
                                                         </div>
@@ -177,7 +177,7 @@
 
 
                                                         <div class="card-footer">
-                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="bodyweight1.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</a>&nbsp; 
                                                             <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
                         
                                                         </div>
@@ -204,7 +204,7 @@
 
 
                                                         <div class="card-footer">
-                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="bodyweight1.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</a>&nbsp;  
                                                             <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
                         
                                                         </div>
@@ -231,7 +231,7 @@
 
 
                                                         <div class="card-footer">
-                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="bodyweight1.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</a>&nbsp;  
                                                             <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
                         
                                                         </div>
@@ -258,7 +258,7 @@
 
 
                                                         <div class="card-footer">
-                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="bodyweight1.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</a>&nbsp;  
                                                             <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
                         
                                                         </div>
@@ -285,7 +285,7 @@
 
 
                                                         <div class="card-footer">
-                                                            <a href="register.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-pencil-alt"></i>&nbsp; สมัครเรียน</a>&nbsp; 
+                                                            <a href="bodyweight1.php" class="btn btn-success" role="button" aria-pressed="true" target="_blank" ><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</a>&nbsp;  
                                                             <a href="register.php" class="btn btn-danger" role="button" aria-pressed="true" target="_blank" ><i class="far fa-calendar-alt"></i>&nbsp; จองวันเรียน</a>
                         
                                                         </div>
