@@ -311,7 +311,7 @@
                                                 </td>
                                                 <td>มือใหม่อยากมีกล้าม</td>                                                
                                                 <td>
-                                                    <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</button>
+                                                   <a href="jobdata.php" class="btn btn-secondary btn-sm" role="button" aria-pressed="true" ><i class="fas fa-search-plus"></i>&nbsp; ดูเพิ่มเติม</a>
                                                 </td>
                                                 <td> <span class="badge badge-success">สำเร็จ</span></td>
                                                 <td>
@@ -329,7 +329,7 @@
                                                 </td>
                                                 <td>มือใหม่อยากมีกล้าม</td>                                                
                                                 <td>  
-                                                     <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</button>
+                                                <a href="jobdata.php" class="btn btn-secondary btn-sm" role="button" aria-pressed="true" ><i class="fas fa-search-plus"></i>&nbsp; ดูเพิ่มเติม</a>
                                                 </td>
                                                 <td><span class="badge badge-success">สำเร็จ</span></td>
                                                 <td>
@@ -349,7 +349,7 @@
                                                 </td>
                                                 <td>มือใหม่อยากมีกล้าม</td>                                                
                                                 <td>  
-                                                     <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</button>
+                                                <a href="jobdata.php" class="btn btn-secondary btn-sm" role="button" aria-pressed="true" ><i class="fas fa-search-plus"></i>&nbsp; ดูเพิ่มเติม</a>
                                                 </td>
                                                 <td> <span class="badge badge-warning">รอดำเนินการ</span></td>
                                                 <td>
@@ -368,7 +368,7 @@
                                                 </td>
                                                 <td>มือใหม่อยากมีกล้าม</td>                                                
                                                 <td>  
-                                                     <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</button>
+                                                <a href="jobdata.php" class="btn btn-secondary btn-sm" role="button" aria-pressed="true" ><i class="fas fa-search-plus"></i>&nbsp; ดูเพิ่มเติม</a>
                                                 </td>
                                                 <td><span class="badge badge-warning">รอดำเนินการ</span></td>
                                                 <td>
@@ -386,7 +386,7 @@
                                                 </td>
                                                 <td>มือใหม่อยากมีกล้าม</td>                                                
                                                 <td>  
-                                                     <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-search-plus"></i>&nbsp;ดูเพิ่มเติม</button>
+                                                <a href="jobdata.php" class="btn btn-secondary btn-sm" role="button" aria-pressed="true" ><i class="fas fa-search-plus"></i>&nbsp; ดูเพิ่มเติม</a>
                                                 </td>
                                                 <td><span class="badge badge-danger">ยกเลิก</span></td>
                                                 <td>

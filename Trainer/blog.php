@@ -310,12 +310,13 @@
                                         <tbody>
                                             <tr>
                                                 <td>1</td>
-                                                <td><img src="images/blog/1.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
+                                                <td><img src="images/blog/4.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-primary">
-                                                         <i class="fas fa-eye"></i>
+                                                    
+                                                    <a class="btn btn-primary" href="/pro/User/nutrition1.php" target="_blank">
+                                                        <i class="fas fa-eye"></i>
                                                           ดูบทความ
-                                                    </button>
+                                                    </a>
 
                                                     <button type="button" class="btn btn-danger">
                                                          <i class="fas fa-wrench"></i>
@@ -335,10 +336,10 @@
                                                 <td>2</td>
                                                 <td><img src="images/blog/2.jpg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-primary">
-                                                         <i class="fas fa-eye"></i>
+                                                    <a class="btn btn-primary" href="/pro/User/nutrition1.php" target="_blank">
+                                                        <i class="fas fa-eye"></i>
                                                           ดูบทความ
-                                                    </button>
+                                                    </a>
 
                                                     <button type="button" class="btn btn-danger">
                                                          <i class="fas fa-wrench"></i>
@@ -358,10 +359,10 @@
                                                 <td>3</td>
                                                 <td><img src="images/blog/3.jpeg" class="rounded" alt="Cinque Terre" width="300" height="200"></td>
                                                 <td>
-                                                    <button type="button" class="btn btn-primary">
-                                                         <i class="fas fa-eye"></i>
+                                                <a class="btn btn-primary" href="/pro/User/nutrition1.php" target="_blank">
+                                                        <i class="fas fa-eye"></i>
                                                           ดูบทความ
-                                                    </button>
+                                                    </a>
 
                                                     <button type="button" class="btn btn-danger">
                                                          <i class="fas fa-wrench"></i>

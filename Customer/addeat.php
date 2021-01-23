@@ -291,45 +291,52 @@
                                                 </div>
                                                
                                                                                              
-                                                                                       
+                                                                                            
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label class=" form-control-label">เวลาทาน : </label>
+                                                        <label for="file-input" class=" form-control-label">มื้อเช้า : </label>
                                                     </div>
-                                                    <div class="col col-md-9">
-                                                        <div class="form-check">
-                                                            <div class="radio">
-                                                                <label for="radio1" class="form-check-label ">
-                                                                    <input type="radio" id="radio1" name="radios" value="option1" class="form-check-input">มื้อเช้า
-                                                                </label>
-                                                            </div>
-                                                            <div class="radio">
-                                                                <label for="radio2" class="form-check-label ">
-                                                                    <input type="radio" id="radio2" name="radios" value="option2" class="form-check-input">มื้อกลางวัน
-                                                                </label>
-                                                            </div>
-                                                            <div class="radio">
-                                                                <label for="radio3" class="form-check-label ">
-                                                                    <input type="radio" id="radio3" name="radios" value="option3" class="form-check-input">มื้อเย็น
-                                                                </label>
-                                                            </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <div class="input-group">
+                                                            <input type="email" id="input2-group2" name="input2-group2" placeholder="ค้นหาเมนู" class="form-control">
+                                                                <div class="input-group-btn">
+                                                                    <button class="btn btn-success">
+                                                                        <i class="fa fa-search"></i>&nbsp;ค้นหา
+                                                                    </button>
+                                                                </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                             
+
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
-                                                        <label for="file-input" class=" form-control-label">เมนู : </label>
+                                                        <label for="file-input" class=" form-control-label">มื้อกลางวัน : </label>
                                                     </div>
                                                     <div class="col-12 col-md-9">
-                                                    <div class="input-group">
-                                                        <input type="email" id="input2-group2" name="input2-group2" placeholder="ค้นหาเมนู" class="form-control">
-                                                        <div class="input-group-btn">
-                                                            <button class="btn btn-primary">
-                                                                <i class="fa fa-search"></i>&nbsp;ค้นหา
-                                                            </button>
+                                                        <div class="input-group">
+                                                            <input type="email" id="input2-group2" name="input2-group2" placeholder="ค้นหาเมนู" class="form-control">
+                                                                <div class="input-group-btn">
+                                                                    <button class="btn btn-warning">
+                                                                        <i class="fa fa-search"></i>&nbsp;ค้นหา
+                                                                    </button>
+                                                                </div>
                                                         </div>
                                                     </div>
+                                                </div>
+
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="file-input" class=" form-control-label">มื้อเย็น : </label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <div class="input-group">
+                                                            <input type="email" id="input2-group2" name="input2-group2" placeholder="ค้นหาเมนู" class="form-control">
+                                                                <div class="input-group-btn">
+                                                                    <button class="btn btn-danger">
+                                                                        <i class="fa fa-search"></i>&nbsp;ค้นหา
+                                                                    </button>
+                                                                </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 

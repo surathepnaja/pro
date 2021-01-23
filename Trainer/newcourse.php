@@ -391,6 +391,22 @@
                                                             </div>
                                                         </div>
                                                 </div>
+
+                                                <div class="row form-group">
+                                                    <div class="col col-md-3">
+                                                        <label for="select" class=" form-control-label">สถานที่สอน :</label>
+                                                    </div>
+                                                    <div class="col-12 col-md-9">
+                                                        <select name="select" id="select" class="form-control">
+                                                            <option value="0">เลือกร้านประจำของคุณ</option>
+                                                            <option value="1">DD Fitness Novel </option>
+                                                            <option value="2">Mentor Gym </option>
+                                                            <option value="3">Fitness & Sauna</option>
+                                                           
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                           
                                              
                                                 <div class="row form-group">
                                                     <div class="col col-md-3">
@@ -403,6 +419,8 @@
                                                 
                                             </form>
                                         </div>
+
+                                      
                                         
                                         <div class="card-footer">
                                            
