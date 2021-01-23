@@ -281,145 +281,145 @@
 
             <!-- MAIN CONTENT-->
             <div class="row">
-              <div class="col-md-8 offset-md-1 mr-auto ml-auto">
-              <div class="main-content">
-                <div class="section__content section__content--p30">
-                    <div class="container-fluid">
-                 
-                        <div class="col-lg">
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <strong>คอร์ส online : InDepth Exercise เจาะลึก 45 ท่าเล่นเวทที่สำคัญ</strong> &nbsp;
-                                        </div>
-                                        <div class="card-body card-block">
-                                            <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
-                                                                              
-                                                <div class="row form-group">
-                                                       <img src="images/coures/1.jpg" class="float-right"> 
+                  <div class="col-md-8 offset-md-1 mr-auto ml-auto">
+                       <div class="main-content">
+                        <div class="section__content section__content--p30">
+                            <div class="container-fluid">
+                        
+                                <div class="col-lg">
+                                            <div class="card">
+                                                <div class="card-header">                                                
+                                                    <strong>ชื่อคอร์ส : InDepth Exercise เจาะลึก 45 ท่าเล่นเวทที่สำคัญ</strong> &nbsp;
                                                 </div>
-
-
-                                                  <div class="row form-group">
-                                                    <div class="col col-md-3">
-                                                        <label for="textarea-input" class=" form-control-label">รายละเอียด : </label>
-                                                    </div>
-                                                    <div class="col-12 col-md-9">
-                                                         <label for="textarea-input" class=" form-control-label">
-                                                         
-                                                         เจาะลึกการเคลื่อนไหว มุมการออกแรง การควบคุมน้ำหนักและการใช้กล้ามเนื้อให้ได้มากที่สุด 
-                                                         ในแต่ละท่าฝึก รวมไปถึงการวิเคราะห์ข้อผิดพลาดที่พบบ่อย กับมุมที่อันตรายและเสี่ยงกับการบาดเจ็บ
-                                                         เพื่อประโยชน์ในการป้องกันการบาดเจ็บจากการฝึกในแต่ละท่าฝึกด้วย ครอบคลุมการฝึกหลักกว่า 45 
-                                                         ท่าฝึก ครบทุกส่วนร่างกายครอบคลุมทุกโปรแกรมการฝึก เรียนจริง ทำไปใช้ได้จริง ในรูปแบบ online 
-                                                         ดูซ้ำได้ไม่จำกัด ภายในระยะเวลา 30 วัน ไม่ว่าคุณจะอยู่ที่ไหนก็ตาม <br>
-                                                         
-
-                                                         คอร์สนี้เหมาะสำหรับ<br>
-
-                                                            – ผู้ที่ต้องการศึกษาการออกกำลังกายอย่างถูกต้อง<br>
-
-                                                            – ผู้ฝึกที่ไม่เข้าใจกลไกการฝึกแต่ละท่าอย่างถูกต้อง<br>
-
-                                                            – ผู้ฝึกที่ต้องการแก้ไขท่าฝึกเพื่อพัฒนาจุดด้อย<br>
-
-                                                            – ผู้ที่ทำอย่างไรก็ไม่สามารถพัฒนาการฝึกได้อีก<br>
-
-                                                            – ผู้ที่ประสบปัญหาฝึกหนึ่งใน 45 ท่านี้แล้วไม่โดน<br>
-
-                                                            – เทรนเนอร์ที่ต้องการเสริมความรู้ตัวเองให้ครบถ้วนยิ่งขึ้น<br>
-
-                                                            
-
-                                                            สิ่งที่คุณจะได้รับ<br>
-
-                                                            1.สามารถดูคอร์ส Indept Exercise online ได้ 30 วัน ไม่จำกัดจำนวนครั้ง<br>
-
-                                                            2.คู่มือประกอบการเรียน 1 เล่ม ความหนา 200 หน้า  พร้อมจัดส่งฟรี<br>
-
-                                                            3.โปรแกรมการเล่นเวทแบบ 1 ปี ทั้งหมดนี้มูลค่ากว่า 5,000 บาท
-                                                         
-                                                         
-                                                         </label>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row form-group">
-                                                    <div class="col col-md-3">
-                                                        <label for="select" class=" form-control-label">หมวดหมู่ :</label>
-                                                    </div>
-                                                    <div class="col-12 col-md-9">
-
-                                                            <label for="textarea-input" class=" form-control-label"> 
-                                                            คอร์สบอดี้เวท(Body Weight)
-                                                            </label>  
-                                                      
-                                                    </div>
-                                                </div>
-                                                
-                                                                                       
-                                                <div class="row form-group">
-                                                    <div class="col col-md-3">
-                                                        <label class=" form-control-label">รูปแบบการสอน : </label>
-                                                    </div>
-                                                    <div class="col col-md-9">
-                                                         <label for="textarea-input" class=" form-control-label"> 
-                                                            เทรนเดียว
-                                                         </label>  
-                                                    </div>
-                                                </div>
-
-                                                                                          
-                                                <div class="row form-group">
-                                                    <div class="col col-md-3">
-                                                        <label class=" form-control-label">วันที่เปิดสอน : </label>
-                                                    </div>
-                                                    <div class="col col-md-9">
-                                                         <label for="textarea-input" class=" form-control-label"> 
-                                                            ทุกวัน
-                                                         </label>  
-                                                    </div>
-                                                </div>
-
-                                                <div class="row form-group">
-                                                    <div class="col col-md-3">
-                                                        <label class=" form-control-label">สถานที่สอน : </label>
-                                                    </div>
-                                                    <div class="col col-md-9">
-                                                         <label for="textarea-input" class=" form-control-label"> 
-                                                            <a href="home.php" class="card-link">DD Fitness</a>
-                                                            <a href="home.php" class="card-link">Mentor Gym</a>
-                                                            <a href="home.php" class="card-link">Novel Fitness & Sauna</a>
-                                                         </label>  
-                                                    </div>
-                                                </div>
-                                             
-                                             
-                                                
-                                            </form>
-                                        </div>
-                                        
-                                        <div class="card-footer">
-                                           
-                                                        <div class="col-md-4 offset-md-4 mr-auto ml-auto">
-                                                              <button type="submit" class="btn btn-success"><i class="fa fa-share"></i> &nbsp;แชร์</button>
-                                                              <button type="reset" class="btn btn-danger"><i class="fa fa-wrench"></i> &nbsp;แก้ไข</button>
+                                                <div class="card-body card-block">
+                                                    <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                                                                    
+                                                        <div class="row form-group">
+                                                            <img src="images/coures/1.jpg" class="float-right"> 
                                                         </div>
-                                           
-                                        </div>
+
+
+                                                        <div class="row form-group">
+                                                            <div class="col col-md-3">
+                                                                <label for="textarea-input" class=" form-control-label">รายละเอียด : </label>
+                                                            </div>
+                                                            <div class="col-12 col-md-9">
+                                                                <label for="textarea-input" class=" form-control-label">
+                                                                
+                                                                เจาะลึกการเคลื่อนไหว มุมการออกแรง การควบคุมน้ำหนักและการใช้กล้ามเนื้อให้ได้มากที่สุด 
+                                                                ในแต่ละท่าฝึก รวมไปถึงการวิเคราะห์ข้อผิดพลาดที่พบบ่อย กับมุมที่อันตรายและเสี่ยงกับการบาดเจ็บ
+                                                                เพื่อประโยชน์ในการป้องกันการบาดเจ็บจากการฝึกในแต่ละท่าฝึกด้วย ครอบคลุมการฝึกหลักกว่า 45 
+                                                                ท่าฝึก ครบทุกส่วนร่างกายครอบคลุมทุกโปรแกรมการฝึก เรียนจริง ทำไปใช้ได้จริง ในรูปแบบ online 
+                                                                ดูซ้ำได้ไม่จำกัด ภายในระยะเวลา 30 วัน ไม่ว่าคุณจะอยู่ที่ไหนก็ตาม <br>
+                                                                
+
+                                                                คอร์สนี้เหมาะสำหรับ<br>
+
+                                                                    – ผู้ที่ต้องการศึกษาการออกกำลังกายอย่างถูกต้อง<br>
+
+                                                                    – ผู้ฝึกที่ไม่เข้าใจกลไกการฝึกแต่ละท่าอย่างถูกต้อง<br>
+
+                                                                    – ผู้ฝึกที่ต้องการแก้ไขท่าฝึกเพื่อพัฒนาจุดด้อย<br>
+
+                                                                    – ผู้ที่ทำอย่างไรก็ไม่สามารถพัฒนาการฝึกได้อีก<br>
+
+                                                                    – ผู้ที่ประสบปัญหาฝึกหนึ่งใน 45 ท่านี้แล้วไม่โดน<br>
+
+                                                                    – เทรนเนอร์ที่ต้องการเสริมความรู้ตัวเองให้ครบถ้วนยิ่งขึ้น<br>
+
+                                                                    
+
+                                                                    สิ่งที่คุณจะได้รับ<br>
+
+                                                                    1.สามารถดูคอร์ส Indept Exercise online ได้ 30 วัน ไม่จำกัดจำนวนครั้ง<br>
+
+                                                                    2.คู่มือประกอบการเรียน 1 เล่ม ความหนา 200 หน้า  พร้อมจัดส่งฟรี<br>
+
+                                                                    3.โปรแกรมการเล่นเวทแบบ 1 ปี ทั้งหมดนี้มูลค่ากว่า 5,000 บาท
+                                                                
+                                                                
+                                                                </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row form-group">
+                                                            <div class="col col-md-3">
+                                                                <label for="select" class=" form-control-label">หมวดหมู่ :</label>
+                                                            </div>
+                                                            <div class="col-12 col-md-9">
+
+                                                                    <label for="textarea-input" class=" form-control-label"> 
+                                                                    คอร์สบอดี้เวท(Body Weight)
+                                                                    </label>  
+                                                            
+                                                            </div>
+                                                        </div>
+                                                        
+                                                                                            
+                                                        <div class="row form-group">
+                                                            <div class="col col-md-3">
+                                                                <label class=" form-control-label">รูปแบบการสอน : </label>
+                                                            </div>
+                                                            <div class="col col-md-9">
+                                                                <label for="textarea-input" class=" form-control-label"> 
+                                                                    เทรนเดียว
+                                                                </label>  
+                                                            </div>
+                                                        </div>
+
+                                                                                                
+                                                        <div class="row form-group">
+                                                            <div class="col col-md-3">
+                                                                <label class=" form-control-label">วันที่เปิดสอน : </label>
+                                                            </div>
+                                                            <div class="col col-md-9">
+                                                                <label for="textarea-input" class=" form-control-label"> 
+                                                                    ทุกวัน
+                                                                </label>  
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="row form-group">
+                                                            <div class="col col-md-3">
+                                                                <label class=" form-control-label">สถานที่สอน : </label>
+                                                            </div>
+                                                            <div class="col col-md-9">
+                                                                <label for="textarea-input" class=" form-control-label"> 
+                                                                    <a href="home.php" class="card-link">DD Fitness</a>
+                                                                    <a href="home.php" class="card-link">Mentor Gym</a>
+                                                                    <a href="home.php" class="card-link">Novel Fitness & Sauna</a>
+                                                                </label>  
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    
+                                                        
+                                                    </form>
+                                                </div>
+                                                
+                                                <div class="card-footer">
+                                                
+                                                                <div class="col-md-4 offset-md-4 mr-auto ml-auto">
+                                                                    <button type="submit" class="btn btn-success"><i class="fa fa-share"></i> &nbsp;แชร์</button>
+                                                                    <button type="reset" class="btn btn-danger"><i class="fa fa-wrench"></i> &nbsp;แก้ไข</button>
+                                                                </div>
+                                                
+                                                </div>
+                                            </div>
+                                        
+                                        </div>  
                                     </div>
-                                
-                                </div>  
+                                </div>
+
                             </div>
                         </div>
 
-                    </div>
-                </div>
-
-            </div>
+                       </div>
              
                  
-           
+                  </div>
 
-    </div>
+           </div>
 
     <!-- Jquery JS-->
     <script src="vendor/jquery-3.2.1.min.js"></script>
