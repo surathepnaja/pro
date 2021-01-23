@@ -84,12 +84,12 @@
                                                     <div class="form-check">
                                                         <div class="radio">
                                                             <label for="radio1" class="form-check-label ">
-                                                                <input type="radio" id="radio" name="radios" value="ผู้ออกำลังกาย" class="form-check-input">ผู้ออกกำลังกาย
+                                                                <input type="radio" id="radio1" name="radios" value="Trainer" class="form-check-input">เทรนเนอร์
                                                             </label>
                                                         </div>
                                                         <div class="radio">
                                                             <label for="radio2" class="form-check-label ">
-                                                                <input type="radio" id="radio" name="radios" value="เทรนเนอร์" class="form-check-input">เทรนเนอร์
+                                                                <input type="radio" id="radio2" name="radios" value="Customer" class="form-check-input">ผู้ออกำลังกาย
                                                             </label>
                                                         </div>
                                                        
