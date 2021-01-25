@@ -48,7 +48,7 @@ if ($conn->query($sql2) === TRUE) {
 if ($sql) {
 	echo "<script type='text/javascript'>";
 	echo "alert('Save Succesfuly');";
-	//echo "window.location = 'register.php'; ";
+	echo "window.location = 'register.php'; ";
 	echo "</script>";
 } else {
 	echo "<script type='text/javascript'>";

@@ -1,3 +1,9 @@
+
+<?php
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -234,7 +240,7 @@
                                                     <h5 class="name">
                                                         <a href="#">john doe</a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
+                                                    <span class="email"><?=$_SESSION['username']; ?></span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">

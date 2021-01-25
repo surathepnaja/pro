@@ -1,3 +1,13 @@
+
+<?php
+session_start();
+include('connect.php');
+$sql = "SELECT*FROM tr_customer_profile WHERE id_username  = '".$_SESSION['username']."'";
+$result=mysqli_fetch_array(MYSQLI_ASSOC);
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -234,7 +244,7 @@
                                                     <h5 class="name">
                                                         <a href="#">john doe</a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
+                                                    <span class="email"><?=$_SESSION['username']; ?></span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -275,7 +285,7 @@
                                 
                             </div>
 
-
+                //แก้ไขโปรไฟล์เว้ย
                             <div class="col-md-7">
                             <div class="card">
                                     <div class="card-header">
@@ -283,14 +293,14 @@
                                         <strong>กรอกข้อมูล</strong> โปรไฟล์ของคุณ
                                     </div>
                                     <div class="card-body card-block">
-                                        <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                        <form action="datapofile.php" method="post" enctype="multipart/form-data" class="form-horizontal">
                                             
                                             <div class="row form-group">
                                                 <div class="col col-md-3">
                                                     <label for="text-input" class=" form-control-label">ชื่อ-นามสกุล : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="text-input" name="text-input" placeholder="กรอกชื่อ-นามสกุล" class="form-control">
+                                                    <input type="text" id="textname" name="textname" placeholder="<?=  $result['customer_name']; ?>" class="form-control">
                                                     <small class="form-text text-muted">ของท่านโดยเว้นวรรค 1 ครั้ง</small>
                                                 </div>
                                             </div>
@@ -300,7 +310,7 @@
                                                     <label for="disabled-input" class=" form-control-label">Email : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="disabled-input" name="disabled-input" placeholder="JohnDoe2020@gmail.com" disabled="" class="form-control">
+                                                    <input type="text" id="disabled-input" name="disabled-input" placeholder="<?=$_SESSION['username']; ?>" disabled="" class="form-control">
                                                 </div>
                                             </div>
 
@@ -321,12 +331,12 @@
                                                     <div class="form-check">
                                                         <div class="radio">
                                                             <label for="radio1" class="form-check-label ">
-                                                                <input type="radio" id="radio1" name="radios" value="option1" class="form-check-input">ชาย
+                                                                <input type="radio" id="radio1" name="radios" value="ชาย" class="form-check-input">ชาย
                                                             </label>
                                                         </div>
                                                         <div class="radio">
                                                             <label for="radio2" class="form-check-label ">
-                                                                <input type="radio" id="radio2" name="radios" value="option2" class="form-check-input">หญิง
+                                                                <input type="radio" id="radio2" name="radios" value="หญิง" class="form-check-input">หญิง
                                                             </label>
                                                         </div>
                                                        
@@ -339,7 +349,7 @@
                                                     <label for="text-input" class=" form-control-label">น้ำหนัก/ส่วนสูง : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="text-input" name="text-input" placeholder="น้ำหนัก/ส่วนสูง" class="form-control">
+                                                    <input type="text" id="texthw" name="texthw" placeholder="น้ำหนัก/ส่วนสูง" class="form-control">
                                                     
                                                 </div>
                                             </div>
@@ -350,7 +360,7 @@
                                                     <label for="textarea-input" class=" form-control-label">ที่อยู่ : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <textarea name="textarea-input" id="textarea-input" rows="6"placeholder="กรอกที่อยู่ปัจจุบันของคุณ" class="form-control"></textarea>
+                                                    <textarea name="textarea" id="textarea" rows="6"placeholder="กรอกที่อยู่ปัจจุบันของคุณ" class="form-control"></textarea>
                                                 </div>
                                             </div>
                                             
@@ -369,7 +379,7 @@
                                                     <label for="text-input" class=" form-control-label">FaceBook : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="text-input" name="text-input" placeholder="ชื่อเฟสบุ๊คของคุณ" class="form-control">
+                                                    <input type="text" id="textfb" name="textfb" placeholder="ชื่อเฟสบุ๊คของคุณ" class="form-control">
                                                     
                                                 </div>
                                             </div>
@@ -379,7 +389,7 @@
                                                     <label for="text-input" class=" form-control-label">Line id : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="text-input" name="text-input" placeholder="ไอดีไลย์ของคุณ" class="form-control">
+                                                    <input type="text" id="textline" name="textline" placeholder="ไอดีไลย์ของคุณ" class="form-control">
                                                     
                                                 </div>
                                             </div>
@@ -389,22 +399,21 @@
                                                     <label for="text-input" class=" form-control-label">เบอร์ติดต่อ : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="text-input" name="text-input" placeholder="เบอร์โทรศัพท์ของคุณ" class="form-control">
+                                                    <input type="text" id="textphone" name="textphone" placeholder="เบอร์โทรศัพท์ของคุณ" class="form-control">
                                                    
                                                 </div>
                                             </div>
                                             
-                                        </form>
+                                        
                                     </div>
                                     <div class="card-footer">
-                                              <div class="col-md-4 offset-md-4 mr-auto ml-auto">
-                                                       <button type="submit" class="btn btn-success">บันทึก</button>
-                                                       <button type="reset" class="btn btn-danger">ยกเลิก</button>
-                                              </div>
+                                    <center>
+                                              <button type="submit" class="btn btn-success">บันทึก</button>
+                                                       <button type="reset" class="btn btn-danger">ยกเลิก</button></center>
                                     </div>
                                 </div>
                             </div>
-
+                            </form>
                             <div class="col-md-2">
                                
                             </div>
