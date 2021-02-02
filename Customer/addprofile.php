@@ -2,8 +2,9 @@
 <?php
 session_start();
 include('connect.php');
-$sql = "SELECT*FROM tr_customer_profile WHERE id_username  = '".$_SESSION['username']."'";
-$result=mysqli_fetch_array(MYSQLI_ASSOC);
+$query1 = "SELECT*FROM tr_customer_profile WHERE id_username  = '".$_SESSION['username']."'";
+$result = $conn->query($query1);
+
 
 ?>
 
@@ -45,7 +46,10 @@ $result=mysqli_fetch_array(MYSQLI_ASSOC);
     <link href="css/theme.css" rel="stylesheet" media="all">
 
 </head>
-
+<?php 
+                                                 if ($result->num_rows > 0) {
+                                                    while($row = $result->fetch_assoc()){
+                                                 ?>
 <body class="animsition">
     <div class="page-wrapper">
         <!-- HEADER MOBILE-->
@@ -56,7 +60,7 @@ $result=mysqli_fetch_array(MYSQLI_ASSOC);
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="index.php">
-                   <h3>Customer System</h3>
+                   <h3>ระบบผู้ใช้งาน</h3>
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -231,7 +235,7 @@ $result=mysqli_fetch_array(MYSQLI_ASSOC);
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">john doe</a>
+                                            <a class="js-acc-btn" href="#"><?="คุณ".$row['customer_name']; ?></a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -242,7 +246,7 @@ $result=mysqli_fetch_array(MYSQLI_ASSOC);
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#"><?="คุณ".$row['customer_name']; ?></a>
                                                     </h5>
                                                     <span class="email"><?=$_SESSION['username']; ?></span>
                                                 </div>
@@ -285,7 +289,7 @@ $result=mysqli_fetch_array(MYSQLI_ASSOC);
                                 
                             </div>
 
-                //แก้ไขโปรไฟล์เว้ย
+                
                             <div class="col-md-7">
                             <div class="card">
                                     <div class="card-header">
@@ -299,12 +303,12 @@ $result=mysqli_fetch_array(MYSQLI_ASSOC);
                                                 <div class="col col-md-3">
                                                     <label for="text-input" class=" form-control-label">ชื่อ-นามสกุล : </label>
                                                 </div>
+                                               
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="textname" name="textname" placeholder="<?=  $result['customer_name']; ?>" class="form-control">
+                                                    <input type="text" id="textname" name="textname" placeholder="" class="form-control">
                                                     <small class="form-text text-muted">ของท่านโดยเว้นวรรค 1 ครั้ง</small>
                                                 </div>
                                             </div>
-
                                             <div class="row form-group">
                                                 <div class="col col-md-3">
                                                     <label for="disabled-input" class=" form-control-label">Email : </label>
@@ -313,7 +317,6 @@ $result=mysqli_fetch_array(MYSQLI_ASSOC);
                                                     <input type="text" id="disabled-input" name="disabled-input" placeholder="<?=$_SESSION['username']; ?>" disabled="" class="form-control">
                                                 </div>
                                             </div>
-
                                             <div class="row form-group">
                                                 <div class="col col-md-3">
                                                     <label for="email-input" class=" form-control-label">วัน/เดือน/ปี เกิด : </label>
@@ -369,7 +372,7 @@ $result=mysqli_fetch_array(MYSQLI_ASSOC);
                                                     <label for="file-input" class=" form-control-label">รูปโปร์ไฟล์ :</label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="file" id="file-input" name="file-input" class="form-control-file">
+                                                    <input type="file" id="fileToUpload" name="fileToUpload" class="form-control-file">
                                                 </div>
                                             </div>
                                            
@@ -403,12 +406,16 @@ $result=mysqli_fetch_array(MYSQLI_ASSOC);
                                                    
                                                 </div>
                                             </div>
-                                            
+                                            <?php  
+                                                    }
+
+                                                }
+                                            ?>
                                         
                                     </div>
                                     <div class="card-footer">
                                     <center>
-                                              <button type="submit" class="btn btn-success">บันทึก</button>
+                                              <button type="submit" class="btn btn-success">บันทึกข้อมูล</button>
                                                        <button type="reset" class="btn btn-danger">ยกเลิก</button></center>
                                     </div>
                                 </div>
@@ -459,6 +466,6 @@ $result=mysqli_fetch_array(MYSQLI_ASSOC);
     <script src="js/main.js"></script>
 
 </body>
-
+   
 </php>
 <!-- end document-->

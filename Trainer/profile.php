@@ -1,6 +1,17 @@
+<?php
+session_start();
+include('connect.php');
+$query1 = "SELECT*FROM tr_trainer_profile WHERE id_username  = '".$_SESSION['username']."'";
+$result = $conn->query($query1);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
+  
+<?php 
+                                                 if ($result->num_rows > 0) {
+                                                    while($row = $result->fetch_assoc()){
+           ?>
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
@@ -234,20 +245,20 @@
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">john doe</a>
+                                            <a class="js-acc-btn" href="#"><?="คุณ".$row['trainer_name']; ?></a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="image">
                                                     <a href="#">
-                                                        <img src="images/icon/avatar-01.jpg" alt="John Doe" />
+                                                        <img src="images/icon/avatar-01.jpg" alt="" />
                                                     </a>
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#"><?="คุณ".$row['trainer_name']; ?></a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
+                                                    <span class="email"><?=$_SESSION['username']; ?></span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -303,13 +314,21 @@
                                             <div class="card-body">
                                                 <div class="mx-auto d-block">
                                                     <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
-                                                    <h5 class="text-sm-center mt-2 mb-1">Steven Lee</h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="คุณ".$row['trainer_name']; ?></h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="วันเกิด ".$row['trainer_birthdate']; ?></h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="เพศ ".$row['trainer_gender']; ?></h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="โปรแกรมฝึกสอน".$row['train_program']; ?></h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="ความถนัด  ".$row['aptitude']; ?></h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="ครูสอน".$row['teacher']; ?></h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="รูปใบประกาศ  ".$row['img_certification']; ?></h5>
+                                                  
+                                                   
                                                     <div class="location text-sm-center">
-                                                        <i class="fa fa-map-marker"></i> เขตวงศ์สว่าง กรุงเทพมหานคร, ประเทศไทย</div>
+                                                        <i class="fa fa-map-marker"></i><?=" ที่อยู่ ".$row['trainer_address'];?></div>
                                                 </div>
                                                 <hr>
                                                 <div class="card-text text-sm-center">                                                    
-
+                                                                
                                                      <button type="button" class="btn btn-primary btn-sm">                                                       
                                                              <i class="fa fa-facebook pr-1"></i> FaceBook 
                                                      </button>   
@@ -333,7 +352,11 @@
                                
                             </div>
 
+                            <?php  
+                                                    }
 
+                                                }
+                                            ?>
                            
                         </div>
                     </div>

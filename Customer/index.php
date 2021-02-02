@@ -2,10 +2,18 @@
 
 <?php
 session_start();
+include('connect.php');
+$query1 = "SELECT*FROM tr_customer_profile WHERE id_username  = '".$_SESSION['username']."'";
+$result = $conn->query($query1);
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
+<?php 
+                                                 if ($result->num_rows > 0) {
+                                                    while($row = $result->fetch_assoc()){
+                                                 ?>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -227,7 +235,7 @@ session_start();
                                             <img src="images/icon/avatar-01.jpg" alt="##" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">john doe</a>
+                                            <a class="js-acc-btn" href="#"><?="คุณ".$row['customer_name']; ?></a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -238,7 +246,7 @@ session_start();
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#"><?="คุณ".$row['customer_name']; ?></a>
                                                     </h5>
                                                     <span class="email"><?=$_SESSION['username']; ?></span>
                                                 </div>
@@ -270,7 +278,11 @@ session_start();
                 </div>
             </header>
             <!-- HEADER DESKTOP-->
+            <?php  
+                                                    }
 
+                                                }
+                                            ?>
             <!-- MAIN CONTENT-->
             <div class="main-content">
                 <div class="section__content section__content--p30">

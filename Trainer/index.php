@@ -1,6 +1,8 @@
 <?php
 session_start();
-
+include('connect.php');
+$query1 = "SELECT*FROM tr_trainer_profile WHERE id_username  = '".$_SESSION['username']."'";
+$result = $conn->query($query1);
 ?>
 
 <!DOCTYPE html>
@@ -110,7 +112,10 @@ session_start();
             </div>
         </aside>
         <!-- END MENU SIDEBAR-->
-
+        <?php 
+                                                 if ($result->num_rows > 0) {
+                                                    while($row = $result->fetch_assoc()){
+                                                 ?>
         <!-- PAGE CONTAINER-->
         <div class="page-container">
             <!-- HEADER DESKTOP-->
@@ -243,7 +248,7 @@ session_start();
                                             <img src="images/icon/avatar-01.jpg" alt="" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#"></a>
+                                            <a class="js-acc-btn" href="#"><?="คุณ".$row['trainer_name']; ?></a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -254,7 +259,7 @@ session_start();
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#"></a>
+                                                        <a href="#"><?="คุณ".$row['trainer_name']; ?></a>
                                                     </h5>
                                                     <span class="email"><?=$_SESSION['username']; ?></span>
                                                 </div>
@@ -699,6 +704,11 @@ session_start();
                 </div>
             </div>
             <!-- END MAIN CONTENT-->
+            <?php  
+                                                    }
+
+                                                }
+                                            ?>
             <!-- END PAGE CONTAINER-->
         </div>
 

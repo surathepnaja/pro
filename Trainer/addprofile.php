@@ -1,3 +1,11 @@
+
+<?php
+session_start();
+include('connect.php');
+$query1 = "SELECT*FROM tr_trainer_profile WHERE id_username  = '".$_SESSION['username']."'";
+$result = $conn->query($query1);
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,7 +43,10 @@
     <link href="css/theme.css" rel="stylesheet" media="all">
 
 </head>
-
+<?php 
+                                                 if ($result->num_rows > 0) {
+                                                    while($row = $result->fetch_assoc()){
+                                                 ?>
 <body class="animsition">
     <div class="page-wrapper">
         <!-- HEADER MOBILE-->
@@ -234,7 +245,7 @@
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">john doe</a>
+                                            <a class="js-acc-btn" href="#"><?="คุณ".$row['trainer_name']; ?></a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -245,9 +256,9 @@
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#"><?="คุณ".$row['trainer_name']; ?></a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
+                                                    <span class="email"><?=$_SESSION['username']; ?></span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -296,14 +307,14 @@
                                         <strong>กรอกข้อมูล</strong> โปรไฟล์ของคุณ
                                     </div>
                                     <div class="card-body card-block">
-                                        <form action="" method="post" enctype="multipart/form-data" class="form-horizontal">
+                                        <form action="datapofile.php" method="post" enctype="multipart/form-data" class="form-horizontal">
                                             
                                             <div class="row form-group">
                                                 <div class="col col-md-3">
                                                     <label for="text-input" class=" form-control-label">ชื่อ-นามสกุล : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="text-input" name="text-input" placeholder="กรอกชื่อ-นามสกุล" class="form-control">
+                                                    <input type="text" id="text-input" name="textname" placeholder="กรอกชื่อ-นามสกุล" class="form-control">
                                                     <small class="form-text text-muted">ของท่านโดยเว้นวรรค 1 ครั้ง</small>
                                                 </div>
                                             </div>
@@ -313,7 +324,7 @@
                                                     <label for="disabled-input" class=" form-control-label">Email : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="disabled-input" name="disabled-input" placeholder="JohnDoe2020@gmail.com" disabled="" class="form-control">
+                                                    <input type="text" id="disabled-input" name="disabled-input" placeholder="<?=$_SESSION['username']; ?>" disabled="" class="form-control">
                                                 </div>
                                             </div>
 
@@ -334,12 +345,12 @@
                                                     <div class="form-check">
                                                         <div class="radio">
                                                             <label for="radio1" class="form-check-label ">
-                                                                <input type="radio" id="radio1" name="radios" value="option1" class="form-check-input">ชาย
+                                                                <input type="radio" id="radio1" name="radios" value="ชาย" class="form-check-input">ชาย
                                                             </label>
                                                         </div>
                                                         <div class="radio">
                                                             <label for="radio2" class="form-check-label ">
-                                                                <input type="radio" id="radio2" name="radios" value="option2" class="form-check-input">หญิง
+                                                                <input type="radio" id="radio2" name="radios" value="หญิง" class="form-check-input">หญิง
                                                             </label>
                                                         </div>
                                                        
@@ -352,7 +363,7 @@
                                                     <label for="textarea-input" class=" form-control-label">ที่อยู่ : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <textarea name="textarea-input" id="textarea-input" rows="6"placeholder="กรอกที่อยู่ปัจจุบันของคุณ" class="form-control"></textarea>
+                                                    <textarea name="textarea-input" id="textareainput" rows="6"placeholder="กรอกที่อยู่ปัจจุบันของคุณ" class="form-control"></textarea>
                                                 </div>
                                             </div>
                                             
@@ -365,12 +376,12 @@
                                                     <div class="form-check">
                                                         <div class="checkbox">
                                                             <label for="checkbox1" class="form-check-label ">
-                                                                <input type="checkbox" id="checkbox1" name="checkbox1" value="option1" class="form-check-input">Personal trainer
+                                                                <input type="checkbox" id="checkbox1" name="checkbox1" value="Personal trainer" class="form-check-input">Personal trainer
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label for="checkbox2" class="form-check-label ">
-                                                                <input type="checkbox" id="checkbox2" name="checkbox2" value="option2" class="form-check-input"> Group Training 2-3 คน
+                                                                <input type="checkbox" id="checkbox2" name="checkbox2" value="Group Training 2-3 คน" class="form-check-input"> Group Training 2-3 คน
                                                             </label>
                                                         </div>                                                       
                                                     </div>
@@ -386,27 +397,27 @@
                                                     <div class="form-check">
                                                         <div class="checkbox">
                                                             <label for="checkbox1" class="form-check-label ">
-                                                                <input type="checkbox" id="checkbox1" name="checkbox1" value="option1" class="form-check-input"> ลดน้ำหนัก/ลดไขมัน
+                                                                <input type="checkbox" id="checkboxx1" name="checkboxx1" value="ลดน้ำหนัก/ลดไขมัน" class="form-check-input"> ลดน้ำหนัก/ลดไขมัน
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label for="checkbox2" class="form-check-label ">
-                                                                <input type="checkbox" id="checkbox2" name="checkbox2" value="option2" class="form-check-input"> กระชับสัดส่วน
+                                                                <input type="checkbox" id="checkboxx2" name="checkboxx2" value="กระชับสัดส่วน" class="form-check-input"> กระชับสัดส่วน
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label for="checkbox3" class="form-check-label ">
-                                                                <input type="checkbox" id="checkbox3" name="checkbox3" value="option3" class="form-check-input"> สร้างกล้าเนื้อ
+                                                                <input type="checkbox" id="checkboxx3" name="checkboxx3" value="สร้างกล้าเนื้อ" class="form-check-input"> สร้างกล้าเนื้อ
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label for="checkbox3" class="form-check-label ">
-                                                                <input type="checkbox" id="checkbox3" name="checkbox3" value="option3" class="form-check-input"> โภชนาการ
+                                                                <input type="checkbox" id="checkboxx4" name="checkboxx4" value="โภชนาการ" class="form-check-input"> โภชนาการ
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label for="checkbox3" class="form-check-label ">
-                                                                <input type="checkbox" id="checkbox3" name="checkbox3" value="option3" class="form-check-input"> แก้ปัญหาออฟฟิตซินโดรม
+                                                                <input type="checkbox" id="checkboxx5" name="checkboxx4" value="แก้ปัญหาออฟฟิตซินโดรม" class="form-check-input"> แก้ปัญหาออฟฟิตซินโดรม
                                                             </label>
                                                         </div>
                                                     </div>
@@ -421,17 +432,17 @@
                                                     <div class="form-check">
                                                         <div class="checkbox">
                                                             <label for="checkbox1" class="form-check-label ">
-                                                                <input type="checkbox" id="checkbox1" name="checkbox1" value="option1" class="form-check-input">โยคะ Yoga
+                                                                <input type="checkbox" id="checkboxt1" name="checkboxt1" value="โยคะ Yoga" class="form-check-input">โยคะ Yoga
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label for="checkbox2" class="form-check-label ">
-                                                                <input type="checkbox" id="checkbox2" name="checkbox2" value="option2" class="form-check-input"> คาดิโอ Cardio
+                                                                <input type="checkbox" id="checkboxt2" name="checkboxt2" value="คาดิโอ Cardio" class="form-check-input"> คาดิโอ Cardio
                                                             </label>
                                                         </div>
                                                         <div class="checkbox">
                                                             <label for="checkbox3" class="form-check-label ">
-                                                                <input type="checkbox" id="checkbox3" name="checkbox3" value="option3" class="form-check-input"> ความเเข็งเเรง Strength
+                                                                <input type="checkbox" id="checkboxt3" name="checkboxt3" value="ความเเข็งเเรง Strength" class="form-check-input"> ความเเข็งเเรง Strength
                                                             </label>
                                                         </div>
                                                     </div>
@@ -460,7 +471,7 @@
                                                     <label for="text-input" class=" form-control-label">FaceBook : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="text-input" name="text-input" placeholder="ชื่อเฟสบุ๊คของคุณ" class="form-control">
+                                                    <input type="text" id="text-input" name="textfb" placeholder="ชื่อเฟสบุ๊คของคุณ" class="form-control">
                                                     
                                                 </div>
                                             </div>
@@ -470,7 +481,7 @@
                                                     <label for="text-input" class=" form-control-label">Line id : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="text-input" name="text-input" placeholder="ไอดีไลย์ของคุณ" class="form-control">
+                                                    <input type="text" id="text-input" name="textli" placeholder="ไอดีไลย์ของคุณ" class="form-control">
                                                     
                                                 </div>
                                             </div>
@@ -480,19 +491,19 @@
                                                     <label for="text-input" class=" form-control-label">เบอร์ติดต่อ : </label>
                                                 </div>
                                                 <div class="col-12 col-md-9">
-                                                    <input type="text" id="text-input" name="text-input" placeholder="เบอร์โทรศัพท์ของคุณ" class="form-control">
+                                                    <input type="text" id="text-input" name="textphone" placeholder="เบอร์โทรศัพท์ของคุณ" class="form-control">
                                                    
                                                 </div>
                                             </div>
-                                            
-                                        </form>
-                                    </div>
-                                    <div class="card-footer">
-                                              <div class="col-md-4 offset-md-4 mr-auto ml-auto">
+                                           
+                                              <center>
                                                        <button type="submit" class="btn btn-success">บันทึก</button>
                                                        <button type="reset" class="btn btn-danger">ยกเลิก</button>
+                                                       </center>
                                               </div>
+                                        </form>
                                     </div>
+                                 
                                 </div>
                             </div>
 
@@ -508,7 +519,11 @@
             </div>
 
 
+            <?php  
+                                                    }
 
+                                                }
+                                            ?>
 
 
 

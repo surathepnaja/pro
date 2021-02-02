@@ -1,3 +1,9 @@
+
+<?php
+session_start();
+include('connect.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -74,12 +80,16 @@
                        </li>
 
                         <li class="nav-item">
-                             <a class="nav-link" href="/pro/User/login.php" target="_blank">เข้าสู่ระบบ</a>
+                        <a href="/pro/User/register.php" class="btn" aria-pressed="true" target="_blank" ><?=$_SESSION['username']; ?></a>
                         </li>
                         
                         <li class="nav-item">  
                               <a href="/pro/User/register.php" class="btn btn-success  " role="button" aria-pressed="true" target="_blank" >สมัครเรียน</a>
+                              
                         </li>
+                      
+                              
+                    
                    </ul>                  
                 </div>
              </div>

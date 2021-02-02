@@ -1,7 +1,14 @@
 
+
 <?php
 session_start();
+include('connect.php');
+$query1 = "SELECT*FROM tr_customer_profile WHERE id_username  = '".$_SESSION['username']."'";
+$result = $conn->query($query1);
+
+
 ?>
+
 
 
 <!DOCTYPE html>
@@ -41,7 +48,11 @@ session_start();
     <link href="css/theme.css" rel="stylesheet" media="all">
 
 </head>
-
+  
+<?php 
+                                                 if ($result->num_rows > 0) {
+                                                    while($row = $result->fetch_assoc()){
+                                                 ?>
 <body class="animsition">
     <div class="page-wrapper">
         <!-- HEADER MOBILE-->
@@ -52,7 +63,7 @@ session_start();
         <aside class="menu-sidebar d-none d-lg-block">
             <div class="logo">
                 <a href="index.php">
-                   <h3>Customer System</h3>
+                   <h3>ระบบผู้ใช้งาน</h3>
                 </a>
             </div>
             <div class="menu-sidebar__content js-scrollbar1">
@@ -227,7 +238,7 @@ session_start();
                                             <img src="images/icon/avatar-01.jpg" alt="John Doe" />
                                         </div>
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">john doe</a>
+                                            <a class="js-acc-btn" href="#"><?="คุณ".$row['customer_name']; ?></a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
@@ -238,7 +249,7 @@ session_start();
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#"><?="คุณ".$row['customer_name']; ?></a>
                                                     </h5>
                                                     <span class="email"><?=$_SESSION['username']; ?></span>
                                                 </div>
@@ -288,19 +299,25 @@ session_start();
                                                 <i class="fa fa-user"></i>
                                                 <strong class="card-title pl-2">โปรไฟล์ของคุณ</strong>
                                                             <a href="addprofile.php" class="btn btn-success btn-lg float-right mt-1 btn-sm " role="button" aria-pressed="true">
-                                                            <i class="fa fa-plus"></i> &nbsp;เพิ่มข้อมูล</a>
+                                                            <i class="fa fa-plus"></i> &nbsp;แก้ไขข้อมูล</a>
                                                  
                                             </div>
-
+                                          
 
                                             <div class="card-body">
                                                 <div class="mx-auto d-block">
                                                     <img class="rounded-circle mx-auto d-block" src="images/icon/avatar-01.jpg" alt="Card image cap">
-                                                    <h5 class="text-sm-center mt-2 mb-1">Steven Lee</h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="คุณ".$row['customer_name']; ?></h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="วันเกิด ".$row['customer_birthdate']; ?></h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="เพศ ".$row['customer_gender']; ?></h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="ส่วนสูงน้ำหนัก  ".$row['weight_height']; ?></h5>
+                                                    <h4 class="text-sm-center mt-2 mb-1"><?="เบอร์ติดต่อ  ".$row['phone_number']; ?></h5>
+                                                   
                                                     <div class="location text-sm-center">
-                                                        <i class="fa fa-map-marker"></i> เขตวงศ์สว่าง กรุงเทพมหานคร, ประเทศไทย</div>
+                                                        <i class="fa fa-map-marker"></i><?=" ที่อยู่ ".$row['customer_address'];?></div>
                                                 </div>
                                                 <hr>
+                                                
                                                 <div class="card-text text-sm-center">                                                    
 
                                                      <button type="button" class="btn btn-primary btn-sm">                                                       
@@ -315,6 +332,11 @@ session_start();
                                                              <i class="fa fa-phone pr-1"></i>เบอร์โทร
                                                      </button>                                          
                                                     
+                                                     <?php  
+                                                    }
+
+                                                }
+                                            ?>
                                                 </div>
                                             </div>
                                         </div>
